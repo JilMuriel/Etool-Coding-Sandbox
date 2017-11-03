@@ -42,7 +42,7 @@
 	$(document).ready(function(){
 		var code = $("#asd")[0];
 		var editor = CodeMirror.fromTextArea(code, {
-			lineNumbers : True
+			lineNumbers : true
 		});
 	});
 </script>
