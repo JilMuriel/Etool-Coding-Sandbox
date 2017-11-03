@@ -8,10 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
-	<link rel="stylesheet" type="text/css" href="/assets/plugin/codemirror/lib/codemirror.css">
-	<link rel="stylesheet" type="text/css" href="/assets/plugin/themes/monokai.css">
+	<link rel="stylesheet" type="text/css" href="/assets/codemirror/lib/codemirror.css">
+	<link rel="stylesheet" type="text/css" href="/assets/themes/monokai.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="/assets/codemirror/lib/codemirror.js"></script>
+	<script src="/assets/codemirror/mode/javascript/javascript.js"></script>
+	<script src="/assets/codemirror/mode/css/css.js"></script>
+	<script src="/assets/codemirror/mode/xml/xml.js"></script>
 </head>
 <body>
 
