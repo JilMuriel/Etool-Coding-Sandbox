@@ -6,7 +6,7 @@
 		</ul>
 	  </div>
 	  <div class="page-box pt-4 w-100">
-	  	<button class="btn btn-default float-right mr-4 mb-4">Run</button>
+	  	<button class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
 	  	<div class="ml-4 mr-4">
 	  		<textarea class="w-100" style="height: 250px;"></textarea>
 	  		<div class="row mt-4">
@@ -39,3 +39,8 @@
 	  </div>
 	</div>
 </div>
+<script type="text/javascript">
+	run_button.addEventListener('click', function(){
+		result.innerHTML = PHP.value + '<style>' + CSS.value + '</style>' + '<script>' + JS.value + '</value>';
+	})
+</script>
