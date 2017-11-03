@@ -165,4 +165,8 @@ a {
   background-repeat: no-repeat;
   background-position: center; }
 
+.card-btn {
+  padding-left: 5px !important;
+  padding-right: 5px !important; }
+
 /*# sourceMappingURL=style.css.map */
