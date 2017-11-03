@@ -14,7 +14,7 @@
 	  					<div class="p-2 header-ide text-light">
 	  						<h6>PHP</h6>
 		  				</div>
-		  				<textarea class="w-100 border-0 text-ide" style="height: 250px"></textarea>
+		  				<textarea id="asd" class=" w-100 border-0 text-ide" style="height: 250px"></textarea>
 	  				</div>
 	  			</div>
 	  			<div class="col-4">
@@ -38,3 +38,11 @@
 	  </div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var code = $("#asd")[0];
+		var editor = CodeMirror.fromTextArea(code, {
+			lineNumbers : True
+		});
+	});
+</script>
