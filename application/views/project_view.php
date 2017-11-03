@@ -15,7 +15,7 @@
 	  					<div class="p-2 header-ide text-light">
 	  						<h6>PHP</h6>
 		  				</div>
-		  				<textarea id="PHP" class=" w-100 border-0 text-ide" style="height: 250px"></textarea>
+		  				<textarea id="PHP_input" class=" w-100 border-0 text-ide" style="height: 250px"></textarea>
 	  				</div>
 	  			</div>
 	  			<div class="col-4">
@@ -23,7 +23,7 @@
 	  					<div class="p-2 header-ide text-light">
 	  						<h6>CSS</h6>
 		  				</div>
-		  				<textarea id="CSS" class="w-100 border-0 text-ide" style="height: 250px"></textarea>
+		  				<textarea id="CSS_input" class="w-100 border-0 text-ide" style="height: 250px"></textarea>
 	  				</div>
 	  			</div>
 	  			<div class="col-4">
@@ -31,7 +31,7 @@
 	  					<div class="p-2 header-ide text-light">
 	  						<h6>Javascript</h6>
 		  				</div>
-		  				<textarea id="JS" class="w-100 border-0 text-ide" style="height: 250px"></textarea>
+		  				<textarea id="JS_input" class="w-100 border-0 text-ide" style="height: 250px"></textarea>
 	  				</div>
 	  			</div>
 	  		</div>
@@ -41,6 +41,6 @@
 </div>
 <script type="text/javascript">
 	run_button.addEventListener('click', function(){
-		result.innerHTML = PHP.value + '<style>' + CSS.value + '</style>' + '<script>' + JS.value + '</value>';
+		result.innerHTML = PHP_input.value + '<style>' + CSS_input.value + '</style>' + '<script>' + JS_input.value + '</value>';
 	})
 </script>
