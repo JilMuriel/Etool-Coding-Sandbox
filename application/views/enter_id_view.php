@@ -11,7 +11,7 @@
 							    <input type="text" class="form-control robot" placeholder="Ex'4516969t'" autocomplete="off">
 							 </div>
 							 <a class="btn w-100 btn-custom1" href="<?php echo base_url('user/create_account'); ?>">
-							 	Start
+							 	Submit
 							 </a>
 						</div>
 					</form>
