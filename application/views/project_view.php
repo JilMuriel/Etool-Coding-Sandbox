@@ -6,6 +6,7 @@
 		</ul>
 	  </div>
 	  <div class="page-box pt-4 w-100">
+	  	<button class="btn btn-primary float-right">Run</button>
 	  	<div class="ml-4 mr-4">
 	  		<textarea class="w-100" style="height: 250px;"></textarea>
 	  		<div class="row mt-4">
