@@ -6,6 +6,7 @@
 					<h2 class="accent">Create account</h2>
 					<hr>
 					<form>
+						<h1>hello world</h1>
 						<div class="form-group">
 					    	<input type="text" class="form-control" placeholder="Username">
 					    </div>
