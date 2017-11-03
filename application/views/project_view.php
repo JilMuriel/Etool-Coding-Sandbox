@@ -47,6 +47,6 @@
 		doc.close();
 		doc.open();
 		doc.write(
-		result.innerHTML = '<?php?>' + PHP_input.value '<?php?>' + '<style>' + CSS_input.value + '</style>' + '<script>' + JS_input.value + '</' + 'script>' );
+		result.innerHTML = '<?php' + PHP_input.value '?>' + '<style>' + CSS_input.value + '</style>' + '<script>' + JS_input.value + '</' + 'script>' );
 	})
 </script>
