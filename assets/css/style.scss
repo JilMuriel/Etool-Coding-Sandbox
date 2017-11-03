@@ -34,18 +34,34 @@ hr {
 	background-color: #1D2D38;
 	color: #fff;
 }
-
+.landing-btn {
+	background-color: #222;
+	color: #fff;
+}
+.landing-btn:hover {
+	background-color: #676767;
+	color: #fff;
+}
+.landing-btn1 {
+ background: #0E3E60;
+ color: #fff;
+}
+.landing-btn1:hover {
+ background: #175A8B;
+ color: #fff;
+}
 a {
 	color: #077BC9;
 }
 // ------------------------------------------------
 .Login {
-	background-image: url('/assets/img/bg-primary.png');
+	background-image: url('/assets/img/bg-transparent.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-color: #246170;
+	// background-color: #246170;
+	background-color: #6693B2;
 }
 .l-center {
 	margin: auto;
@@ -62,12 +78,13 @@ a {
 	padding-top: 9vh;
 }
 .CreateAccount {
-	background-image: url('/assets/img/bg-primary.png');
+	background-image: url('/assets/img/bg-transparent.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-color: #246170;
+	// background-color: #246170;
+	background-color: #6693B2;
 }
 .register-card {
 	background: #fff;
@@ -84,7 +101,7 @@ a {
 	padding-top: 23vh;
 }
 .project-card {
-	background: #17B9D3;
+	background: #6693B2;
 	border-radius: 4px;
 	margin-left: auto;
 	margin-right: auto;
@@ -133,9 +150,25 @@ a {
 	color: #fff
 }
 .Main-Page {
-	background-image: url('/assets/img/bg-primary.png');
+	// background: #175A8B;
+	background-image: url('/assets/img/landing_bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;	
+	background-color: #fff;
+	color: #fff;
+	.landing-container {
+		height: 95vh;
+		padding-top: 25vh;
+		padding-bottom: 10vh;
+		.row {
+		}
+	}	
+}
+.About {
+	background-image: url('/assets/img/computers_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
 }
