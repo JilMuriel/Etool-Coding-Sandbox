@@ -8,7 +8,7 @@
 	  <div class="page-box pt-4 w-100">
 	  	<button class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
 	  	<div class="ml-4 mr-4">
-	  		<textarea id="result" class="w-100" style="height: 250px;"></textarea>
+	  		<div id="result" class="w-100" style="height: 250px;"></div>
 	  		<div class="row mt-4">
 	  			<div class="col-4">
 	  				<div class="card-ide shadow-super-light ">
@@ -41,6 +41,6 @@
 </div>
 <script type="text/javascript">
 	run_button.addEventListener('click', function(){
-		result.innerHTML = PHP_input.value + '<style>' + CSS_input.value + '</style>' + '<script>' + JS_input.value + '</value>';
+		result.innerHTML = PHP_input.value + '<style>' + CSS_input.value + '</style>';
 	})
 </script>
