@@ -23,8 +23,8 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
 				<div class="row mx-auto text-center w-100">
-					<button class="btn landing-btn1 pl-4 pr-4 shadow-light">Learn more</button>
-					<a href="<?php echo base_url('user/create_account'); ?>" class="btn pl-4 pr-4 btn bg-dark text-light shadow-light ml-2">Create account</a>
+					<button class="btn btn-primary pl-4 pr-4">Learn more</button>
+					<a href="<?php echo base_url('user/create_account'); ?>" class="btn pl-4 pr-4 btn bg-dark text-light ml-2">Create account</a>
 				</div>
 			</div>
 		</div>

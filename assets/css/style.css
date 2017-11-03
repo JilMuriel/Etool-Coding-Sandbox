@@ -141,11 +141,10 @@ a {
   color: #fff; }
 
 .Main-Page {
-  background-image: url("/assets/img/landing_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #fff;
+  background-color: #175A8B;
   color: #fff; }
   .Main-Page .landing-container {
     height: 95vh;
