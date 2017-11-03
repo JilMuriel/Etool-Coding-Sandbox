@@ -8,7 +8,7 @@
 	  <div class="page-box pt-4 w-100">
 	  	<button class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
 	  	<div class="ml-4 mr-4">
-	  		<textarea class="w-100" style="height: 250px;"></textarea>
+	  		<textarea id="result" class="w-100" style="height: 250px;"></textarea>
 	  		<div class="row mt-4">
 	  			<div class="col-4">
 	  				<div class="card-ide shadow-super-light ">
