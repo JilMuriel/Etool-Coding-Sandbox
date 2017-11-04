@@ -115,24 +115,31 @@ a {
   margin-right: auto;
   padding: 25px 23px 25px 23px; }
 
+.dashboard-nav {
+  background-color: #5A83BC;
+  color: #fff; }
+
+.sidebar {
+  position: fixed;
+  top: 78px;
+  max-width: 15%;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.right-nav {
+  margin-top: 55px; }
+
+.post-card-h {
+  background-color: #6693B2; }
+
 .Dashboard {
-  padding-top: 55px; }
-  .Dashboard .d-flex {
-    height: 100%; }
-    .Dashboard .d-flex .side-nav {
-      height: auto;
-      background-color: #336489; }
-      .Dashboard .d-flex .side-nav .list-active {
-        background-color: #264C68 !important; }
-      .Dashboard .d-flex .side-nav .list-group-item {
-        padding-left: 15px;
-        padding-right: 15px;
-        background: none;
-        border: none;
-        color: #fff;
-        border-radius: 0; }
-      .Dashboard .d-flex .side-nav .list-group-item:hover {
-        background-color: #264C68; }
+  padding-top: 15px; }
+  .Dashboard .container-fluid .right-nav {
+    margin-left: 50px; }
 
 .p-card {
   background-color: #fff; }
@@ -171,5 +178,13 @@ a {
 .card-btn {
   padding-left: 5px !important;
   padding-right: 5px !important; }
+
+.nav-btn {
+  background-color: #e2e2e2;
+  color: white; }
+
+.nav-btn:hover {
+  background-color: #e1e1e1;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
