@@ -17,7 +17,7 @@
 		<hr class="mt-4 ml-5 mr-5">
 		<div class="row mt-3 ml-5 mr-5">
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -69,7 +69,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -96,7 +96,7 @@
 			</div>
 
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -109,7 +109,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -122,7 +122,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -135,7 +135,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -148,7 +148,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
@@ -161,7 +161,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-2 mt-2  mb-4">
-				<div class="card shadow-super-light p-2">
+				<div class="card card-shadow p-2">
 					<div class="text-center mt-2 mb-1">
 						<img class="img-fluid" src="/assets/img/dummy-img.png">
 					</div>
