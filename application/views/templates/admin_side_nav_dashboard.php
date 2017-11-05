@@ -15,5 +15,12 @@
               	<i class="material-icons">developer_board</i>
               </a>
             </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#">
+                 <i class="fa fa-cogs" aria-hidden="true"></i>
+              </a>
+            </li>
           </ul>
         </nav>
+
+       
