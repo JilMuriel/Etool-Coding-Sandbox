@@ -15,7 +15,7 @@
 							 <a href="<?php echo base_url('dashboard'); ?>" class="btn w-100 btn-custom">Login</a>
 						</div>
 					</form>
-					<a href="<?php echo base_url('User/create_account'); ?>" class="accent text-center">Need an account? Register here</a>
+					<a href="<?php echo base_url('User/validate_user'); ?>" class="accent text-center">Need an account? Register here</a>
 				</div>
 			</div>
 		</div>

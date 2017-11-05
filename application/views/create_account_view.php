@@ -25,7 +25,7 @@
 					    <div class="form-group">
 					    	<input type="text" class="form-control" placeholder="Lastname">
 					    </div>
-					    <button class="btn btn-custom w-100 mb-3">Create my account</button>
+					    <button class="btn btn-custom w-100 mb-3" >Create my account</button>
 					</form>
 					<a href="<?php echo base_url('user'); ?>" class="w-100 text-center">Already have an account? Login in here</a>
 				</div>
