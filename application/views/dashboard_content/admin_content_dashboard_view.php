@@ -2,6 +2,31 @@
 <div class="form-group ml-auto d-inline-block float-right mt-2 mr-3">
   <input type="text" class="form-control" placeholder="Search">
 </div>
+<div class="d-inline-block float-right mt-2 mr-3">
+  <button class="btn btn-primary" data-toggle="modal" data-target="#add_user">
+    <i class="fa fa-plus" aria-hidden="true"></i>
+  </button>
+  <!-- Modal -->
+    <div class="modal fade" id="add_user" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add User</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 <div class="m-3 mr-3">
   <hr class="">
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
