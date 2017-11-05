@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'  && !empty($_POST['pphhpp']) || $_SERV
 	  	<div class="ml-4 mr-4">
 	  		<div id="result" class="w-100" style="height: 500px;"><?php echo $html . '<style>' . $css . '</style>' . '<script>' . $js . '</script>';?></div>
 	  		<form id="preview-form" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-	  		<button type="submit" class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
+	  		<button type="submit" class="btn btn-default mr-4 mb-4" id="run_button">Run</button>
 	  		<div class="row mt-4">
 	  			<div class="col-4">
 	  				<div class="card-ide shadow-super-light ">
