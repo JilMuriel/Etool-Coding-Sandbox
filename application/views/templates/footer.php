@@ -5,6 +5,6 @@
 <!-- bootstrap -->
 <script src="/assets/js/bootstrap.min.js"></script>
 <!-- code mirror -->
-
+<script src="/assets/js/myjs.js"></script>
 </body>
 </html>

@@ -19,3 +19,54 @@
 </head>
 <body>
 
+<!-- modal -->
+								<!-- Modal -->
+								<!-- edit post -->
+								<div class="modal fade" id="edit_project" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h3 class="modal-title" id="exampleModalLongTitle">Edit</h3>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+								      	<form>
+								      		  <div class="form-group m-0">
+											    <label for="myproject">Project Title</label>
+											    <input type="text" class="form-control" id="myproject" placeholder="My Project">
+											  </div>
+											  <div class="form-group">
+											    <label for="description">Description</label>
+											    <textarea class="form-control" id="description"></textarea>
+											  </div>
+								      	</form>
+								      </div>
+								      <div class="modal-footer">
+								      	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+								        <button type="button" class="btn btn-primary">Update</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								<!-- remove post -->
+								<div class="modal fade" id="remove_project" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h3 class="modal-title" id="exampleModalLongTitle">Notice</h3>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+								       	<p>Proceed to delete this project?</p>
+								       	<hr>
+								       	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+								        <button type="button" class="btn btn-danger">Delete</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+          					 	<!-- end of modal -->

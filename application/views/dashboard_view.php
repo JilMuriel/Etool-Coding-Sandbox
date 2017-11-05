@@ -12,7 +12,7 @@
               </a>
             </li>
             <li class="nav-item p-2">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="<?php echo base_url('dashboard/create_project'); ?>">
               	<i class="material-icons">add_box</i>
               </a>
             </li>
@@ -40,37 +40,14 @@
           					 <p class="p-0 m-0 robot"><small>11/5/2017</small></p>
           					</div>
           					 <div class="d-inline-block float-right">
-          					 	<a href="" class="text-light"><i class="material-icons">create</i></a>
-          					 	<a class="text-light" href="" data-toggle="modal" data-target="#exampleModalLong"><i class="material-icons">close</i></a>
-          					 	<!-- modal -->
-          					 	<!-- Button trigger modal -->
-
-								<!-- Modal -->
-								<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-								  <div class="modal-dialog" role="document">
-								    <div class="modal-content">
-								      <div class="modal-header">
-								        <h3 class="modal-title" id="exampleModalLongTitle">Notice</h3>
-								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								          <span aria-hidden="true">&times;</span>
-								        </button>
-								      </div>
-								      <div class="modal-body">
-								       	<p>Proceed to delete this project?</p>
-								       	<hr>
-								       	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-								        <button type="button" class="btn btn-danger">Delete</button>
-								      </div>
-								    </div>
-								  </div>
-								</div>
-          					 	<!-- end of modal -->
+          					 	<a href="" class="text-light" data-toggle="modal" data-target="#edit_project"><i class="material-icons">create</i></a>
+          					 	<a class="text-light" href="" data-toggle="modal" data-target="#remove_project"><i class="material-icons">close</i></a>
           					 </div>
           				</div>
           				<div class="card-body">
-          					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-          					<button type="button" class="btn btn-outline-primary">Go to project</button>
+          					<button type="button" class="btn btn-outline-primary float-right">Go to project</button>
           				</div>
           			</div>
           		</div>
@@ -82,14 +59,14 @@
           					 <p class="p-0 m-0 robot"><small>11/5/2017</small></p>
           					</div>
           					 <div class="d-inline-block float-right">
-          					 	<a href="" class="text-light"><i class="material-icons">create</i></a>
-          					 	<a href="" class="text-light"><i class="material-icons">close</i></a>
+          					 	<a href="" class="text-light" data-toggle="modal" data-target="#edit_project"><i class="material-icons">create</i></a>
+          					 	<a class="text-light" href="" data-toggle="modal" data-target="#remove_project"><i class="material-icons">close</i></a>
           					 </div>
           				</div>
           				<div class="card-body">
-          					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-          					<button type="button" class="btn btn-outline-primary">Go to project</button>
+          					<button type="button" class="btn btn-outline-primary float-right">Go to project</button>
           				</div>
           			</div>
           		</div>
