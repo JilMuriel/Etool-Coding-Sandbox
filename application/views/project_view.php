@@ -8,7 +8,13 @@
 	  <div class="page-box pt-4 w-100">
 	  	<button class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
 	  	<div class="ml-4 mr-4">
+<<<<<<< HEAD
 	  		<iframe id="result" class="w-100" style="height: 500px;"></iframe>
+=======
+	  		<div id="result" class="w-100" style="height: 500px;"><?php echo $html . '<style>' . $css . '</style>' . '<script>' . $js . '</script>';?></div>
+	  		<form id="preview-form" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+	  		<button type="submit" class="btn btn-default mr-4 mb-4" id="run_button">Run</button>
+>>>>>>> da2cb8f265dd3d392ac36a4605fcb8dc59cbe5e9
 	  		<div class="row mt-4">
 	  			<div class="col-4">
 	  				<div class="card-ide shadow-super-light ">
