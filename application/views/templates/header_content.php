@@ -1,10 +1,3 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav  ml-auto">
-      <a class="nav-item nav-link active pr-5" href="#">User</a>
-    </div>
-  </div>
+<nav class="dashboard-nav navbar navbar-expand-lg navbar-dark shadow-super-light   fixed-top">
+	<a class="navbar-brand" href="#"><h1>Etool</h1></a>
 </nav>
