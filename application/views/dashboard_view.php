@@ -47,7 +47,7 @@
           				<div class="card-body">
           					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-          					<button type="button" class="btn btn-outline-primary float-right">Go to project</button>
+          					<a href="<?php echo base_url('dashboard/project '); ?>" class="btn btn-outline-primary float-right">Go to project</a>
           				</div>
           			</div>
           		</div>
