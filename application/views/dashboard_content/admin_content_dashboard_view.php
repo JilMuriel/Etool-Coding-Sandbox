@@ -18,10 +18,31 @@
           </div>
           <div class="modal-body">
             
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="instructor-tab" data-toggle="tab" href="#instructor" role="tab" aria-controls="nstructor" aria-selected="true">Instructor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="student-tab" data-toggle="tab" href="#student" role="tab" aria-controls="student" aria-selected="false">Student</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
+                <div class="form-group ml-2 mr-2">
+                  <label for="instructor">Instructor ID</label>
+                  <input type="text" class="form-control robot" id="instructor" placeholder="ex *1143103">
+                  <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="student" role="tabpanel" aria-labelledby="student-tab">
+                <div class="form-group ml-2 mr-2">
+                  <label for="student">Student ID</label>
+                  <input type="text" class="form-control robot " id="student" placeholder="ex *1143103">
+                  <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
