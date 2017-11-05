@@ -18,8 +18,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'  && !empty($_POST['pphhpp']) || $_SERV
 	  </div>
 	  <div class="page-box pt-4 w-100">
 	  	
-	  	<div class="ml-4 mr-4">
-	  		<div id="result" class="w-100" style="height: 500px;"><?php echo $html . '<style>' . $css . '</style>' . '<script>' . $js . '</script>';?></div>
+	  	<div class="ml-4 mr-4" style="padding-top: 100px;">
+	  		<iframe class="w-100" src="<?php echo $html?>"></iframe>
+	  		
 	  		<form id="preview-form" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 	  		<button type="submit" class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
 	  		<div class="row mt-4">
