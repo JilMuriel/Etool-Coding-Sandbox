@@ -17,8 +17,25 @@
   </ul>
   <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-      <div class="ml-2 mr-2">
-        
+      <div class="row pt-3">
+        <div class="col-sm-2 pl-3 pr-3">
+          <div class="card p-3"></div>
+        </div>
+        <div class="col-sm-2 pl-3 pr-3">
+          <div class="card p-3"></div>
+        </div>
+        <div class="col-sm-2 pl-3 pr-3">
+          <div class="card p-3"></div>
+        </div>
+        <div class="col-sm-2 pl-3 pr-3">
+          <div class="card p-3"></div>
+        </div>
+        <div class="col-sm-2 pl-3 pr-3">
+          <div class="card p-3"></div>
+        </div>
+        <div class="col-sm-2 pl-3 pr-3">
+          <div class="card p-3"></div>
+        </div>
       </div>
     </div>
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
