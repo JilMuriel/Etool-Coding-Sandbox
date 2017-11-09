@@ -44,12 +44,10 @@
 <script type="text/javascript">
 	var doc = result.contentDocument;
 
-	run_button.addEventListener('click', function(){
-		doc.close();
-		doc.open();
-		doc.write(
-			myCodeMirror.getValue() + '<style>' + myCodeMirror1.getValue() + '</style>' + '<script>' + editor.getValue() + '</' + 'script>' )
-	});
+	run_button.addEventListener('click', 	function openInNewTab(url) {
+	  var win = window.open(<?php echo base_url('user'); ?>, '_blank');
+	  win.focus();
+	};
 
 	
 
@@ -68,9 +66,9 @@
   matchBrackets: true,
    lineNumbers : true,
 }); 
+
 </script>
 
-<!-- function openInNewTab(url) {
-  var win = window.open(url, '_blank');
-  win.focus();
-} -->
+<script type="text/javascript">
+
+</script>

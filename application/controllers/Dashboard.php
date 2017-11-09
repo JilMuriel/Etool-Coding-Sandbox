@@ -33,4 +33,11 @@ class Dashboard extends CI_Controller {
         $this->load->view('project_view');
         $this->load->view('templates/footer');
     }
+    public function project_result() {
+        $data['title'] = 'Etool Result';
+        $this->load->view('templates/header' , $data);
+        $this->load->view('templates/header_content');
+        $this->load->view('project_result');
+        $this->load->view('templates/footer');
+    }
 }
