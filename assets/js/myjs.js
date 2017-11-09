@@ -7,6 +7,9 @@ $(function () {
 })
 // slider
 $('.carousel').carousel()
+ $(document).ready(function() {      
+        $('.carousel').carousel('pause');
+    });
 //code editor js
 
 
