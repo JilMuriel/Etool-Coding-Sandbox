@@ -5,6 +5,8 @@ $('#myTab a').on('click', function (e) {
 $(function () {
   $('[data-toggle="popover"]').popover()
 })
+// slider
+$('.carousel').carousel()
 //code editor js
 var doc = result.contentDocument;
 

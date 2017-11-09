@@ -1,5 +1,5 @@
 <?php
-class Dashboard extends CI_Controller {
+class Guide extends CI_Controller {
     public function index() {
         $data['title'] = 'Getting Started';
     	$this->load->view('templates/header', $data);
