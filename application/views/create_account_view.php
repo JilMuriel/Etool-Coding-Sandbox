@@ -18,13 +18,7 @@
 					    <div class="form-group">
 					    	<input type="email" class="form-control" placeholder="Email">
 					    </div>
-					    <div class="form-group">
-					    	<input type="text" class="form-control" placeholder="Firstname">
-					    </div>
-					    <div class="form-group">
-					    	<input type="text" class="form-control" placeholder="Lastname">
-					    </div>
-					    <button class="btn btn-custom w-100 mb-3" >Create my account</button>
+					    <a href="<?php echo base_url('guide'); ?>" class="btn btn-custom w-100 mb-3" >Create my account</a>
 					</form>
 					<a href="<?php echo base_url('user'); ?>" class="w-100 text-center">Already have an account? Login in here</a>
 				</div>

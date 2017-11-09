@@ -11,7 +11,7 @@
 							    <input type="text" class="form-control" placeholder="Name of project" autocomplete="off">
 							 </div>
 							 <a class="btn w-100 btn-custom1" href="<?php echo base_url('dashboard/create_database'); ?>">
-							 	Start
+							 	Next
 							 </a>
 						</div>
 					</form>

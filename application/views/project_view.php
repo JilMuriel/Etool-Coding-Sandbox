@@ -9,8 +9,14 @@
 	  <div class="page-box pt-4 w-100">
 	  	
 	  	<div class="ml-4 mr-4" style="padding-top: 100px;">
-	  		<iframe class="w-100" id="result" style="height: 400px;">"></iframe>
+	  		<iframe class="w-100" id="result" style="height: 400px;"></iframe>
 	  		<button type="submit" class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
+	  		<button id= "clickhere">CLICK HERE</button>
+<div id="main">
+    <p id="yeah" >asdasdadadad</p>
+
+    <span>Hey there</span>
+</div>
 	  		<div class="row mt-4">
 	  			<div class="col-4">
 	  				<div class="card-ide shadow-super-light ">
@@ -41,16 +47,18 @@
 	  </div>
 	</div>
 </div>
+
 <script type="text/javascript">
 	var doc = result.contentDocument;
 
-	run_button.addEventListener('click', function openInNewTab(url) {
-  var win = window.open('<?php echo base_url('user')?>', '_blank');
-  win.focus();
-});
+	run_button.addEventListener('click', function(){
+		doc.close();
+		doc.open();
+		doc.write(
+			myCodeMirror.getValue() + '<style>' + myCodeMirror1.getValue() + '</style>' + '<script>' + editor.getValue() + '</' + 'script>' );
+	});
 
 	
-
 	var editor = CodeMirror.fromTextArea(document.getElementById('jsbox'), {
   mode:  "javascript",
   matchBrackets: true,
@@ -66,9 +74,7 @@
   matchBrackets: true,
    lineNumbers : true,
 }); 
-</script>
 
-<!-- function openInNewTab(url) {
-  var win = window.open(url, '_blank');
-  win.focus();
-} -->
+	
+
+</script>
