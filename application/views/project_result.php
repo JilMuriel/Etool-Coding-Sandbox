@@ -48,7 +48,7 @@
 		doc.close();
 		doc.open();
 		doc.write(
-			myCodeMirror.getValue() + '<style>' + myCodeMirror1.getValue() + '</style>' + '<script>' + editor.getValue() + '</' + 'script>' )
+			myCodeMirror.getValue() + '<style>' + myCodeMirror1.getValue() + '</style>' + '<script>' + editor.getValue() + '</' + 'script>' );
 	});
 
 	
@@ -69,8 +69,3 @@
    lineNumbers : true,
 }); 
 </script>
-
-<!-- function openInNewTab(url) {
-  var win = window.open(url, '_blank');
-  win.focus();
-} -->
