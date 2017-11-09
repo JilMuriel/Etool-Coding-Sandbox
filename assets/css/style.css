@@ -170,7 +170,7 @@ a {
     padding-bottom: 10vh; }
 
 .About {
-  background-image: url("/assets/img/computers_bg.jpg");
+  background-color: White;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }

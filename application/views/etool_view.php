@@ -30,6 +30,24 @@
 		</div>
 	</div>
 </div>
-<div class="About h-50 w-100">
+<div class="About h-75 w-100 p-5">
+	<div class="landing-container col-10 mx-auto">
+		<div class="row">
+	
+			<div class="col-sm-4 col-md-4">
+			
+				<div class="h-50">	
+					<img class="img-responsive" style="height: 100%; " src="/assets/img/landing_img.png">
+				</div>
+			</div>	
+			
+			<div class="col-sm-4 col-md-4">
+			
+			</div>
+
+	
+		</div>
+	</div>
+
 
 </div>
