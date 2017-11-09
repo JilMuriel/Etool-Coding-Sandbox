@@ -6,5 +6,38 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <!-- code mirror -->
 <script src="/assets/js/myjs.js"></script>
+<script type="text/javascript">
+	
+	$('#main').each(function() {
+    $(this).data('contents', $(this).html());
+});
+$('#clickhere').click(function(){
+location.reload();
+downloadeverything();
+
+});
+
+
+function downloadeverything(){
+
+function downloadInnerHtml(filename, elId, mimeType) {
+    
+    var elHtml = $('#' + elId).data('contents');
+       
+    var link = document.createElement('a');
+    mimeType = mimeType || 'text/plain';
+
+    link.setAttribute('download', filename);
+    link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(elHtml));
+    link.click(); 
+}
+
+var fileName =  'asdasd.txt';
+downloadInnerHtml(fileName, 'main','text/html');
+}
+
+
+    $('#yeah').show('puff', 750);
+</script>
 </body>
 </html>
