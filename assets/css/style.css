@@ -29,6 +29,9 @@ hr {
   background-color: #175A8B;
   color: #fff; }
 
+.btn-custom:hover {
+  color: #fff; }
+
 .btn-custom1 {
   background-color: #3D5B6F;
   color: #fff; }
@@ -76,7 +79,7 @@ a {
   padding: 25px 23px 25px 23px; }
 
 .r-center {
-  padding-top: 9vh; }
+  padding-top: 15vh; }
 
 .validate {
   background-image: url("/assets/img/bg-transparent.png");
