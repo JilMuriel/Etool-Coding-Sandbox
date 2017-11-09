@@ -44,23 +44,10 @@
 <script type="text/javascript">
 	var doc = result.contentDocument;
 
-<<<<<<< HEAD
-// <<<<<<< HEAD
-	run_button.addEventListener('click', 	function openInNewTab(url) {
-	  var win = window.open(<?php echo base_url('user'); ?>, '_blank');
-	  win.focus();
-	};
-// =======
-=======
->>>>>>> f701860e7cd40d57149a4121029dc180831c0530
 	run_button.addEventListener('click', function openInNewTab(url) {
   var win = window.open('<?php echo base_url('user')?>', '_blank');
   win.focus();
 });
-<<<<<<< HEAD
-// >>>>>>> ccff44aa2e50ec7022535b3b233dca9775798860
-=======
->>>>>>> f701860e7cd40d57149a4121029dc180831c0530
 
 	
 
