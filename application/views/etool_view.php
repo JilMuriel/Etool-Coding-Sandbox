@@ -37,7 +37,7 @@
 			<div class="col-sm-4 col-md-4">
 			
 				<div class="h-50">	
-					<img class="img-responsive" style="height: 100%; " src="/assets/img/landing_img.png">
+					<img class="img-responsive" style="height: 100%; " src="<?php echo base_url('/assets/img/landing_img.png'); ?>">
 				</div>
 			</div>	
 			

@@ -27,5 +27,17 @@ class User_model extends CI_Model {
 		);
 		return $this->db->insert('tbl_user', $data);
 	}
+	public function id_verify($account_id) {
+		$this->load->database();
+		$this->db->where('account_id', $account_id);
+
+		$query = $this->db->get('account');
+		if ($query->num_rows() > 0) {
+			return $query->result();
+		}
+		else {
+			return false;
+		}
+	}
 }
 ?>
