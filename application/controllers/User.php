@@ -68,6 +68,7 @@ class User extends CI_Controller {
                     );
                     redirect('user/create_account');
                 }
+                echo $id = $session['user_id'];
             }
             else {
                 // $this->session->flashdata('user_registered');
@@ -77,9 +78,29 @@ class User extends CI_Controller {
     }
     public function create_account() {
         $data['title'] = 'Create account';
-    	$this->load->view('templates/header', $data);
-    	$this->load->view('create_account_view');
-    	$this->load->view('templates/footer');
+        $this->form_validation->set_rules('txtusername', 'Username', 'required');
+        $this->form_validation->set_rules('txtpassword', 'Password', 'required');
+        $this->form_validation->set_rules('txtemail', 'Email', 'required');
+
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('templates/header', $data);
+            $this->load->view('create_account_view');
+            $this->load->view('templates/footer');
+        }
+        else {
+            $data = array(
+                'username' => $this->input->post('txtusername'),
+                'password' => $this->input->post('txtpassword'),
+                'email' => $this->input->post('txtemail')
+                // 'fname' => $this->input->post('txtfname'),
+                // 'lname' => $this->input->post('txtlname')
+            );
+            $this->user_model->m_register($id, $data);
+            // $this->session->sess_destroy();
+            redirect('user');
+        }
+
     }
     public function logout() {
         $this->session->sess_destroy();
