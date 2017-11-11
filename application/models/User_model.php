@@ -21,6 +21,7 @@ class User_model extends CI_Model {
 		
 		$this->db->where('account_id', $id);
 		$this->db->update('account', $data);
+		
 		// return $this->db->insert('account', $data);
 	}
 	public function id_verify($account_id) {
