@@ -39,9 +39,17 @@
 <div class="About h-100 p-5">
 	<div class="container p-5">
 		<div class="row">
+<<<<<<< HEAD
 			<div class="col">
 				<div>	
 					<img class="img-responsive mx-auto d-block pl-2" style="height: 100%; width:100%;" src="/assets/img/landing_img.png">
+=======
+	
+			<div class="col-sm-4 col-md-4">
+			
+				<div class="h-50">	
+					<img class="img-responsive" style="height: 100%; " src="<?php echo base_url('/assets/img/landing_img.png'); ?>">
+>>>>>>> 811509f848f3e64dbe9b540c84c77e263e87eb23
 				</div>
 			</div>	
 			<div class="col">

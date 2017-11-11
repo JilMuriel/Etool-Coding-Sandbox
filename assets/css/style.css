@@ -238,4 +238,22 @@ a {
 .guide-inner {
   padding-top: 12vh; }
 
+.sidenav_creator {
+  position: fixed;
+  height: 100%;
+  max-width: 15%;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.right-nav-creator {
+  margin-top: 55px; }
+
+.creator-content-dashboard {
+  padding-left: 30px !important;
+  background-color: #fff; }
+
 /*# sourceMappingURL=style.css.map */

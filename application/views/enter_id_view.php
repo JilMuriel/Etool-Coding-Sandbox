@@ -5,16 +5,16 @@
 				<div class="m-1 pt-2 pb-2">
 					<h2 class="accent">Enter your ID</h2>
 					<hr class="m-0">
-					<form>
+					<?php echo form_open('user/validate_user'); ?>
 						<div class="pt-3">
 							<div class="form-group mt-2">
-							    <input type="text" class="form-control robot" placeholder="Ex'4516969t'" autocomplete="off">
+							    <input type="text" class="form-control robot" name="txtuserid" placeholder="Ex'4516969t'" autocomplete="off">
 							 </div>
-							 <a class="btn w-100 btn-custom1" href="<?php echo base_url('user/create_account'); ?>">
+							 <button type="submit" class="btn w-100 btn-custom1">
 							 	Submit
-							 </a>
+							 </button>
 						</div>
-					</form>
+					<?php echo form_close(); ?>
 				</div>
 			</div>
 		</div>
