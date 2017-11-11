@@ -26,9 +26,23 @@ class User extends CI_Controller {
                     $session = array (
                     'user_id' => $row->account_id,
                     'user' => $row->username,
+                    'privilege' => $row->account_privilege
                     );
                     $this->session->set_userdata('session', $session);
-                    redirect('dashboard');
+
+                    if ($session['privilege'] == "admin") {
+                        $this->session->set_userdata('session', $session);
+                        redirect('dashboard/admin_dashboard');
+                    }
+                    else if ($session['privilege'] == "instructor") {
+                        $this->session->set_userdata('session', $session);
+                        redirect('dashboard/instructor_dashboard');
+                    }
+                    else if ($session['privilege'] == "student") {
+                        $this->session->set_userdata('session', $session);
+                        redirect('dashboard');
+                    }
+
                 }
             }
             else {
@@ -43,12 +57,56 @@ class User extends CI_Controller {
         $this->load->view('templates/header', $data);
         $this->load->view('enter_id_view');
         $this->load->view('templates/footer');
+        $this->form_validation->set_rules('txtuserid', 'User ID','trim|required');
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('templates/header', $data);
+            $this->load->view('enter_id_view');
+            $this->load->view('templates/footer');
+        } else {
+            $account_id = $this->security->xss_clean($this->input->post('txtuserid'));
+
+            $result = $this->user_model->id_verify($account_id);
+            if ($result) {
+                foreach($result as $row) {
+                    $session = array (
+                    'user_id' => $row->account_id
+                    );
+                    redirect('user/create_account');
+                }
+            }
+            else {
+                // $this->session->flashdata('user_registered');
+                redirect('user/registration_verification');
+            }
+        }
+
     }
+                // echo $id = $session['user_id'];
     public function create_account() {
         $data['title'] = 'Create account';
-    	$this->load->view('templates/header', $data);
-    	$this->load->view('create_account_view');
-    	$this->load->view('templates/footer');
+        $this->form_validation->set_rules('txtusername', 'Username', 'required');
+        $this->form_validation->set_rules('txtpassword', 'Password', 'required');
+        $this->form_validation->set_rules('txtemail', 'Email', 'required');
+
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('templates/header', $data);
+            $this->load->view('create_account_view');
+            $this->load->view('templates/footer');
+        }
+        else {
+            $data = array(
+                'username' => $this->input->post('txtusername'),
+                'password' => $this->input->post('txtpassword'),
+                'email' => $this->input->post('txtemail')
+                // 'fname' => $this->input->post('txtfname'),
+                // 'lname' => $this->input->post('txtlname')
+            );
+            $this->user_model->m_register($id, $data);
+            // $this->session->sess_destroy();
+            redirect('user');
+        }
     }
     public function logout() {
         $this->session->sess_destroy();

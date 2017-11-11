@@ -16,16 +16,25 @@ class User_model extends CI_Model {
 			return false;
 		}
 	}
-	public function m_register() {
+	public function m_register($id, $data) {
 		$this->load->database();
-		$data = array(
-			'username' => $this->input->post('txtusername'),
-			'password' => md5($this->input->post('txtpassword')),
-			'email' => $this->input->post('txtemail'),
-			'fname' => $this->input->post('txtfname'),
-			'lname' => $this->input->post('txtlname')
-		);
-		return $this->db->insert('tbl_user', $data);
+		
+		$this->db->where('account_id', $id);
+		$this->db->update('account', $data);
+		
+		// return $this->db->insert('account', $data);
+	}
+	public function id_verify($account_id) {
+		$this->load->database();
+		$this->db->where('account_id', $account_id);
+
+		$query = $this->db->get('account');
+		if ($query->num_rows() > 0) {
+			return $query->result();
+		}
+		else {
+			return false;
+		}
 	}
 }
 ?>

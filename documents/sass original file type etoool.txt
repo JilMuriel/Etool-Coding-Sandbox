@@ -6,9 +6,6 @@ body {
 .robot {
 	font-family: 'Roboto Condensed', sans-serif;
 }
-.lp-robot {
-	font-family: 'Roboto light', sans-serif;
-}
 hr {
 	padding: 0;
 	margin: 1em 0px;
@@ -32,9 +29,6 @@ box-shadow:         0px -1px 13px -7px rgba(0, 0, 0, 0.66);
 	background-color: #175A8B;
 	color: #fff;
 }
-.btn-custom:hover {
-	color: #fff;
-}
 .btn-custom1 {
 	background-color:#3D5B6F;
 	color: #fff;
@@ -48,15 +42,15 @@ box-shadow:         0px -1px 13px -7px rgba(0, 0, 0, 0.66);
 	color: #fff;
 }
 .landing-btn:hover {
-	background-color: #161616;
+	background-color: #676767;
 	color: #fff;
 }
 .landing-btn1 {
- background: #175A8B;
+ background: #0E3E60;
  color: #fff;
 }
 .landing-btn1:hover {
- background: #134a72;
+ background: #175A8B;
  color: #fff;
 }
 a {
@@ -84,7 +78,7 @@ a {
 	padding: 25px 23px 25px 23px;
 }
 .r-center {
-	padding-top: 15vh;
+	padding-top: 9vh;
 }
 .validate {
 	background-image: url('/assets/img/bg-transparent.png');
@@ -177,32 +171,14 @@ a {
 	color: #fff
 }
 .Main-Page {
-	
+	// background-image: url('/assets/img/landing_bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height:600px;
 	background-position: center;
-	width:100%;
-	background: linear-gradient( #686E77, #3d4044);
+	background-color: #175A8B;
 	color: #fff;
 	.landing-container {
 		height: 95vh;
-		width:100%;
-		padding-top: 25vh;
-		padding-bottom: 10vh;
-		.row {
-		}
-	}	
-}
-.Bottom-Page {
-	
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background: linear-gradient( #175A8B, #175A8B);
-	color: #fff;
-	.landing-container {
-		height: 25vh;
 		padding-top: 25vh;
 		padding-bottom: 10vh;
 		.row {
@@ -210,30 +186,11 @@ a {
 	}	
 }
 .About {
-	width:100%;
-	background-color: White;
+	background-image: url('/assets/img/computers_bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.footer-Page {
-	
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color:#144970;
-	color: #fff;
-	width: 100%;
-	font-weight: lighter; 
-	font-size: 15px;
-	.landing-container1 {
-		height: 1px;
-		padding-top: 1vh;
-		padding-bottom: 10vh;
-		.row {
-		}
-	}
-}
-
 .card-btn {
 	padding-left: 5px !important;
 	padding-right: 5px !important;
@@ -262,22 +219,4 @@ a {
 }
 .guide-inner {
 	padding-top: 12vh;
-}
-.sidenav_creator {
-	position: fixed;
-    height: 100%;
-    max-width: 15%;
-    background-color: #fff;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-.right-nav-creator {
-	margin-top: 55px;
-}
-.creator-content-dashboard {
-	padding-left: 30px !important;
-	background-color: #fff;
 }

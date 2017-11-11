@@ -28,18 +28,32 @@
             </ul>
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
+                <!-- instructor -->
                 <div class="form-group ml-2 mr-2">
                   <label for="instructor">Instructor ID</label>
                   <input type="text" class="form-control robot" id="instructor" placeholder="ex *1143103">
-                  <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
                 </div>
+                <div class="form-group ml-2 mr-2">
+                  <input type="text" class="form-control robot" id="instructor" placeholder="Firstname">
+                </div>
+                <div class="form-group ml-2 mr-2">
+                  <input type="text" class="form-control robot" id="instructor" placeholder="Lastname">
+                </div>
+                <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
               </div>
+              <!-- student -->
               <div class="tab-pane fade" id="student" role="tabpanel" aria-labelledby="student-tab">
                 <div class="form-group ml-2 mr-2">
-                  <label for="student">Student ID</label>
-                  <input type="text" class="form-control robot " id="student" placeholder="ex *1143103">
-                  <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
+                  <label for="instructor">Student ID</label>
+                  <input type="text" class="form-control robot" id="instructor" placeholder="ex *1143103">
                 </div>
+                <div class="form-group ml-2 mr-2">
+                  <input type="text" class="form-control robot" id="instructor" placeholder="Firstname">
+                </div>
+                <div class="form-group ml-2 mr-2">
+                  <input type="text" class="form-control robot" id="instructor" placeholder="Lastname">
+                </div>
+                <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
               </div>
             </div>
 
