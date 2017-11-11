@@ -85,7 +85,7 @@
             <div class="card p-3">
               <div class="text-right text-dark">
                 <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
-                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+                <a class="text-dark" href="<?php echo site_url('/dashboard/admin_dashboard/'.$perreq->cId);?>" ><i class="material-icons">close</i></a>
               </div>
               <div class="text-center">
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
@@ -157,3 +157,4 @@
     </div>
   </div>
 </div>
+

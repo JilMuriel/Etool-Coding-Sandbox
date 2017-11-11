@@ -7,10 +7,12 @@ class Dashboard extends CI_Controller {
     	$this->load->view('dashboard_view');
     	$this->load->view('templates/footer');
     }
-    public function admin_dashboard() {
+    public function admin_dashboard($id = '') {
         $data['title'] = 'Welcome ';
         $this->load->model('User_model');
         $result = $this->User_model->getreq();
+        $where = array('cId' => $id); 
+        $this->User_model->deleteRecord('tbl_user_student',$where);
         $this->load->view('templates/header' , $data);
         $this->load->view('templates/header_content');
         $this->load->view('admin_dashboard_view',$result);
@@ -49,4 +51,9 @@ class Dashboard extends CI_Controller {
         $this->load->view('admin_profile_viewer');
         $this->load->view('templates/footer');
     }
+    public function delete($id = '') {
+      $this->load->model('User_model');
+      $where = array('user_no' => $id); 
+      $this->dbmodel->deleteRecord('tbl_user_student',$where);
+}
 }
