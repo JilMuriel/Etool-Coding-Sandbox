@@ -259,4 +259,18 @@ a {
 .User_profile {
   padding-top: 100px !important; }
 
+.table {
+  border-radius: 6px;
+  background-color: #fff; }
+
+.table td, .table th {
+  padding: 18px 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif; }
+
+.table td, .table th {
+  border-top: 2px solid #e9ecef; }
+
 /*# sourceMappingURL=style.css.map */
