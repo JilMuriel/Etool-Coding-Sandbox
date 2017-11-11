@@ -40,4 +40,11 @@ class Dashboard extends CI_Controller {
         $this->load->view('project_result');
         $this->load->view('templates/footer');
     }
+    public function user_profile() {
+        $data['title'] = 'Etool';
+        $this->load->view('templates/header' , $data);
+        $this->load->view('templates/header_content');
+        $this->load->view('admin_profile_viewer');
+        $this->load->view('templates/footer');
+    }
 }

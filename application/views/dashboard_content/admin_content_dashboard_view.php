@@ -88,7 +88,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Cristopher Rammos</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Marvin Guela</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Marqui Gabriel Cruz</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Jean Ray Valera</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">View Profile</button>
+                <button  class="btn btn-outline-info">View Profile</button>
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Babarano Teodoro</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">View Profile</button>
+                <button  class="btn btn-outline-info">View Profile</button>
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Cristopher Rammos</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -198,7 +198,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Marvin Guela</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -219,7 +219,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -234,7 +234,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Marqui Gabriel Cruz</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">More Info</button>
+                <button  class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Jean Ray Valera</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">View Profile</button>
+                <button  class="btn btn-outline-info">View Profile</button>
               </div>
             </div>
           </div>
@@ -264,7 +264,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Babarano Teodoro</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-                <button type="button" class="btn btn-outline-info">View Profile</button>
+                <button  class="btn btn-outline-info">View Profile</button>
               </div>
             </div>
           </div>
