@@ -8,15 +8,14 @@
 	  </div>
 	  <div class="page-box pt-4 w-100">
 	  	
-	  	<div class="ml-4 mr-4" style="padding-top: 100px;">
-	  		<iframe class="w-100" id="result" style="height: 400px;"></iframe>
-	  		<button type="submit" class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
-	  		<button id= "clickhere">CLICK HERE</button>
-<div id="main">
-    <p id="yeah" >asdasdadadad</p>
+	  	<div class="ml-4 mr-4" style="margin-top: 70px;">
+	  		<iframe class="embed-responsive-item w-100" id="result" style="height: 400px;"></iframe>
 
-    <span>Hey there</span>
-</div>
+			<div id="main" style="display: none">
+			    <p id="yeah" >asdasdadadad</p>
+
+			    <span>Hey there</span>
+			</div>
 	  		<div class="row mt-4">
 	  			<div class="col-4">
 	  				<div class="card-ide shadow-super-light ">
@@ -43,13 +42,19 @@
 	  				</div>
 	  			</div>
 	  		</div>
+	  		<div class="buttons" style="margin-top: 50px;">
+		  		<button type="submit" class="btn btn-default float-right mr-4 mb-4" id="run_button">Run</button>
+		  		<button id= "clickhere" class="btn btn-outline-success float-right mr-4 mb-4">Export</button>
+		  		<button id= "import_btn" class="btn btn-outline-success float-right mr-4 mb-4" >Import</button>
+	  		</div>
 	  	</div>
 	  </div>
 	</div>
 </div>
 
 <script type="text/javascript">
-	var doc = result.contentDocument;
+'use strict';
+var doc = result.contentDocument;
 
 	run_button.addEventListener('click', function(){
 		doc.close();
