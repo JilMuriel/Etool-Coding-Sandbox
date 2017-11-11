@@ -10,11 +10,6 @@
 				<h6 class="m-0 p-0"><small>djibrilmuriel@gmail.com</small></h6>
 				<h6 class="m-0 p-0 robot"><small>11/12/2017 - 12/12/2017 </small></h6>
 			</div>
-			<div class="d-inline-block align-middle float-md-right float-lg-right">
-				<h4 class="accent">Vigil Muriel Boniol</h4>
-				<h6 class="m-0 p-0"><small>djibrilmuriel@gmail.com</small></h6>
-				<h6 class="m-0 p-0 robot"><small>11/12/2017 - 12/12/2017 </small></h6>
-			</div>
 		</div>
 		<div class="users-project pt-4 ml-2 mr-2">
 			<table class="table table-hover shadow-super-light">
@@ -28,8 +23,8 @@
 			    </tr>
 			  </thead>
 			  <tbody>
-			    <tr>
-			      <td><i class="fa fa-folder-o text-left float-left fa-2x accent pr-1" aria-hidden="true"></i><p>My Sample Project 1</p></td>
+			    <tr class="robot">
+			      <td><i class="fa fa-folder-o text-left float-left fa-2x accent pr-1" aria-hidden="true"></i><p class="m-0 p-0">My Sample Project 1</p></td>
 			      <td>Le Database</td>
 			      <td>11/13/2017</td>
 			      <td>11/13/2017</td>
