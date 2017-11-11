@@ -46,8 +46,9 @@ class User extends CI_Controller {
                 }
             }
             else {
-                redirect('user');
-                echo "wrong password";
+                // $this->session->flashdata('user_registered');
+                // redirect('user');
+                echo "<script>alert('No Account Existing')</script>";
             }
         }
     }
@@ -64,7 +65,7 @@ class User extends CI_Controller {
             $this->load->view('templates/footer');
         } else {
             $account_id = $this->security->xss_clean($this->input->post('txtuserid'));
-
+            $this->session->set_userdata('txtuserid', $account_id);
             $result = $this->user_model->id_verify($account_id);
             if ($result) {
                 foreach($result as $row) {
@@ -76,7 +77,7 @@ class User extends CI_Controller {
             }
             else {
                 // $this->session->flashdata('user_registered');
-                redirect('user/registration_verification');
+                echo "<script>alert('ID NOT FOUND')</script>";
             }
         }
 
@@ -86,7 +87,7 @@ class User extends CI_Controller {
         $data['title'] = 'Create account';
         $this->form_validation->set_rules('txtusername', 'Username', 'required');
         $this->form_validation->set_rules('txtpassword', 'Password', 'required');
-        $this->form_validation->set_rules('txtemail', 'Email', 'required');
+        // $this->form_validation->set_rules('txtemail', 'Email', 'required');
 
 
         if ($this->form_validation->run() == FALSE) {
@@ -98,12 +99,13 @@ class User extends CI_Controller {
             $data = array(
                 'username' => $this->input->post('txtusername'),
                 'password' => $this->input->post('txtpassword'),
-                'email' => $this->input->post('txtemail')
+                // 'email' => $this->input->post('txtemail')
                 // 'fname' => $this->input->post('txtfname'),
                 // 'lname' => $this->input->post('txtlname')
             );
+            $id = $this->session->userdata('txtuserid');
             $this->user_model->m_register($id, $data);
-            // $this->session->sess_destroy();
+            $this->session->sess_destroy();
             redirect('user');
         }
     }
