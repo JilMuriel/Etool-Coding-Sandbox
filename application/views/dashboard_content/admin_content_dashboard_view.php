@@ -78,24 +78,6 @@
   <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
       <div class="row pt-3">
-        <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
-          <div class="card p-3">
-            <div class="text-right text-dark">
-              <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
-              <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
-            </div>
-            <div class="text-center">
-              <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
-              <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
-              <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-      <div class="ml-2 mr-2">
-        <div class="row pt-3">
           <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
             <div class="card p-3">
               <div class="text-right text-dark">
@@ -104,8 +86,24 @@
               </div>
               <div class="text-center">
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
-                <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
+                <h6 class="pt-2 mb-1">Cristopher Rammos</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
+            <div class="card p-3">
+              <div class="text-right text-dark">
+                <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
+                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
+                <h6 class="pt-2 mb-1">Marvin Guela</h6>
+                <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -120,6 +118,87 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
+            <div class="card p-3">
+              <div class="text-right text-dark">
+                <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
+                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
+                <h6 class="pt-2 mb-1">Marqui Gabriel Cruz</h6>
+                <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
+            <div class="card p-3">
+              <div class="text-right text-dark">
+                <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
+                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
+                <h6 class="pt-2 mb-1">Jean Ray Valera</h6>
+                <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">View Profile</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
+            <div class="card p-3">
+              <div class="text-right text-dark">
+                <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
+                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
+                <h6 class="pt-2 mb-1">Babarano Teodoro</h6>
+                <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">View Profile</button>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="ml-2 mr-2">
+        <div class="row pt-3">
+          <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
+            <div class="card p-3">
+              <div class="text-right text-dark">
+                <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
+                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
+                <h6 class="pt-2 mb-1">Cristopher Rammos</h6>
+                <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
+            <div class="card p-3">
+              <div class="text-right text-dark">
+                <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
+                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
+                <h6 class="pt-2 mb-1">Marvin Guela</h6>
+                <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -140,6 +219,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -152,8 +232,9 @@
               </div>
               <div class="text-center">
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
-                <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
+                <h6 class="pt-2 mb-1">Marqui Gabriel Cruz</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">More Info</button>
               </div>
             </div>
           </div>
@@ -166,8 +247,24 @@
               </div>
               <div class="text-center">
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
-                <h6 class="pt-2 mb-1">Vigil Muriel Boniol</h6>
+                <h6 class="pt-2 mb-1">Jean Ray Valera</h6>
                 <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">View Profile</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
+            <div class="card p-3">
+              <div class="text-right text-dark">
+                <a href="" class="text-dark" data-toggle="modal" data-target="#edit_user"><i class="material-icons">create</i></a>
+                <a class="text-dark" href="" data-toggle="modal" data-target="#remove_user"><i class="material-icons">close</i></a>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
+                <h6 class="pt-2 mb-1">Babarano Teodoro</h6>
+                <h6 class="pt-0 mt-0"><small>Instructor</small></h6>
+                <button type="button" class="btn btn-outline-info">View Profile</button>
               </div>
             </div>
           </div>
