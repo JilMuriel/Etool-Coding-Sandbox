@@ -6,6 +6,9 @@ body {
 .robot {
   font-family: 'Roboto Condensed', sans-serif; }
 
+.lp-robot {
+  font-family: 'Roboto light', sans-serif; }
+
 hr {
   padding: 0;
   margin: 1em 0px; }
@@ -45,15 +48,15 @@ hr {
   color: #fff; }
 
 .landing-btn:hover {
-  background-color: #676767;
+  background-color: #161616;
   color: #fff; }
 
 .landing-btn1 {
-  background: #0E3E60;
+  background: #175A8B;
   color: #fff; }
 
 .landing-btn1:hover {
-  background: #175A8B;
+  background: #134a72;
   color: #fff; }
 
 a {
@@ -164,19 +167,47 @@ a {
 .Main-Page {
   background-size: cover;
   background-repeat: no-repeat;
+  height: 600px;
   background-position: center;
-  background-color: #175A8B;
+  width: 100%;
+  background: linear-gradient(#686E77, #3d4044);
   color: #fff; }
   .Main-Page .landing-container {
     height: 95vh;
+    width: 100%;
+    padding-top: 25vh;
+    padding-bottom: 10vh; }
+
+.Bottom-Page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(#175A8B, #175A8B);
+  color: #fff; }
+  .Bottom-Page .landing-container {
+    height: 25vh;
     padding-top: 25vh;
     padding-bottom: 10vh; }
 
 .About {
+  width: 100%;
   background-color: White;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+
+.footer-Page {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #144970;
+  color: #fff;
+  width: 100%;
+  font-weight: lighter;
+  font-size: 15px; }
+  .footer-Page .landing-container1 {
+    height: 1px;
+    padding-top: 1vh;
+    padding-bottom: 10vh; }
 
 .card-btn {
   padding-left: 5px !important;
