@@ -49,6 +49,7 @@ class User extends CI_Controller {
             }
         }
     }
+    public $la_id;
     public function validate_user(){
         $data['title'] = 'Validate ID';
         $this->form_validation->set_rules('txtuserid', 'User ID','trim|required');
@@ -66,9 +67,36 @@ class User extends CI_Controller {
                     $session = array (
                     'user_id' => $row->account_id
                     );
-                    redirect('user/create_account');
+                    // redirect('user/create_account');
+                    $data['title'] = 'create account';
+                    $data['id'] = $session['user_id'];
+                    echo $data['id'];
+                    echo $leId = $data['id'];
+                    echo $this->$la_id = $leId;s
+                        // $this->form_validation->set_rules('txtusername', 'Username', 'required');
+                        // $this->form_validation->set_rules('txtpassword', 'Password', 'required');
+                        // $this->form_validation->set_rules('txtemail', 'Email', 'required');
+                        // if ($this->form_validation->run() == False) {
+                        //     $this->load->view('templates/header', $data);
+                        //     $this->load->view('create_account_view');
+                        //     $this->load->view('templates/footer');
+                        // }
+                        // else {
+                        //     $data = array(
+                        //         'username' => $this->input->post('txtusername'),
+                        //         'password' => $this->input->post('txtpassword'),
+                        //         'email' => $this->input->post('txtemail')
+                        //         // 'fname' => $this->input->post('txtfname'),
+                        //         // 'lname' => $this->input->post('txtlname')
+                        //     );
+                        //     $this->user_model->m_register($leId, $data);
+                        //     // $this->session->sess_destroy();
+                        //     redirect('user');
+                        // }
+
                 }
-                echo $id = $session['user_id'];
+
+
             }
             else {
                 // $this->session->flashdata('user_registered');
@@ -78,6 +106,7 @@ class User extends CI_Controller {
     }
     public function create_account() {
         $data['title'] = 'Create account';
+        // echo $this->$id_account;
         $this->form_validation->set_rules('txtusername', 'Username', 'required');
         $this->form_validation->set_rules('txtpassword', 'Password', 'required');
         $this->form_validation->set_rules('txtemail', 'Email', 'required');
@@ -96,7 +125,7 @@ class User extends CI_Controller {
                 // 'fname' => $this->input->post('txtfname'),
                 // 'lname' => $this->input->post('txtlname')
             );
-            $this->user_model->m_register($id, $data);
+            $this->user_model->m_register($id_account, $data);
             // $this->session->sess_destroy();
             redirect('user');
         }

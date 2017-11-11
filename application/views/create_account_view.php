@@ -5,7 +5,7 @@
 				<div class="m-1 pt-2 pb-2">
 					<h2 class="accent">Create account</h2>
 					<hr>
-					<?php echo form_open('user/create_account'); ?>
+					<?php echo form_open('user/validate_user'); ?>
 						<div class="form-group">
 					    	<input type="text" class="form-control" name="txtusername" placeholder="Username">
 					    </div>
