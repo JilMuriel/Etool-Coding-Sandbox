@@ -46,14 +46,9 @@ class User extends CI_Controller {
                 }
             }
             else {
-<<<<<<< HEAD
                 // $this->session->flashdata('user_registered');
                 // redirect('user');
                 echo "<script>alert('No Account Existing')</script>";
-=======
-                redirect('user');
-                echo "wrong password";
->>>>>>> c106dfe82a5a5ccdf6c6a9e8d0d41cd4c7578017
             }
         }
     }
