@@ -9,9 +9,11 @@ class Dashboard extends CI_Controller {
     }
     public function admin_dashboard() {
         $data['title'] = 'Welcome ';
+        $this->load->model('User_model');
+        $result = $this->User_model->getreq();
         $this->load->view('templates/header' , $data);
         $this->load->view('templates/header_content');
-        $this->load->view('admin_dashboard_view');
+        $this->load->view('admin_dashboard_view',$result);
         $this->load->view('templates/footer');
     }
     public function create_project() {
