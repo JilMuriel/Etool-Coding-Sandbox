@@ -46,8 +46,7 @@ class User extends CI_Controller {
                 }
             }
             else {
-                // $this->session->flashdata('user_registered');
-                // redirect('user');
+                redirect('user');
                 echo "wrong password";
             }
         }
