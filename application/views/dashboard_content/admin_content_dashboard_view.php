@@ -91,7 +91,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1"><?php echo $perreq->cFirstname;?><?php echo " ".$perreq->cLastname;?></h6>
                 <h6 class="pt-0 mt-0"><small><?php echo $perreq->cType;?></small></h6>
-                <button type="button" class="btn btn-outline-info">More info</button>
+                <a href="<?php echo base_url('dashboard/user_profile'); ?>" class="btn btn-outline-info">More info</a>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1"><?php echo $perreqa->cFirstname;?><?php echo " ".$perreqa->cLastname;?></h6>
                 <h6 class="pt-0 mt-0"><small><?php echo $perreqa->cType;?></small></h6>
-                <button type="button" class="btn btn-outline-info">More info</button>
+                <a href="<?php echo base_url('dashboard/user_profile'); ?>" class="btn btn-outline-info">More info</a>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1"><?php echo $perreqa->cFirstname;?><?php echo " ".$perreqa->cLastname;?></h6>
                 <h6 class="pt-0 mt-0"><small><?php echo $perreqa->cType;?></small></h6>
-                <button type="button" class="btn btn-outline-info">More info</button>
+                <a href="<?php echo base_url('dashboard/user_profile'); ?>" class="btn btn-outline-info">More info</a>
               </div>
             </div>
           </div>
