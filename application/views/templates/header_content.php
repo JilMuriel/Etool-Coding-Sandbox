@@ -1,5 +1,5 @@
 <nav class="dashboard-nav navbar navbar-expand-lg navbar-dark shadow-super-light   fixed-top">
-<!-- 	<a class="navbar-brand" href="#"><h1>Etool</h1></a> -->
+	<a class="navbar-brand" href="<?php echo base_url('main'); ?>"><h3>Etool</h3></a>
 <!-- 	<a href="<?php echo base_url('user/logout') ?>" class="navbar-brand ml-auto">
 		<i class="fa fa-user-circle" aria-hidden="true"></i>
 	</a> -->
@@ -20,7 +20,8 @@
 		      </a>
 		      <!-- dropdown items here -->
 		      <div class="dropdown-menu dropdown-menu-right">
-			      <a class="dropdown-item" href="<?php echo base_url('user/logout'); ?>">Logout</a>
+		      	  <a class="dropdown-item" href="<?php echo base_url('user/profile'); ?>">Profile</a>
+			      <a class="dropdown-item" href="<?php echo base_url('user/logout'); ?>">Logout</i></a>
 		   	  </div>
 		      <!-- end of dropdown -->
 	  		</li>
