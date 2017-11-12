@@ -26,12 +26,6 @@
                   <label for="instructor">Student ID</label>
                   <input type="text" class="form-control robot" id="instructor" name="txtidnumber" placeholder="ex *1143103">
                 </div>
-                <div class="form-group ml-2 mr-2">
-                  <input type="text" class="form-control robot" id="instructor" placeholder="Firstname">
-                </div>
-                <div class="form-group ml-2 mr-2">
-                  <input type="text" class="form-control robot" id="instructor" placeholder="Lastname">
-                </div>
                 <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
               <?php echo form_close(); ?>
           </div>

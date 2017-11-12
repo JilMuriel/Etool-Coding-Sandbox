@@ -60,9 +60,7 @@ class User extends CI_Controller {
         $this->form_validation->set_rules('txtuserid', 'User ID','trim|required');
 
         if ($this->form_validation->run() == FALSE) {
-            $this->load->view('templates/header', $data);
-            $this->load->view('enter_id_view');
-            $this->load->view('templates/footer');
+           
         } else {
             $account_id = $this->security->xss_clean($this->input->post('txtuserid'));
             $this->session->set_userdata('txtuserid', $account_id);
@@ -138,6 +136,14 @@ class User extends CI_Controller {
         }
     }
 
+    public function profile() {
+        $data['title'] = 'Profile';
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/header_content');
+        $this->load->view('user_profile_view');
+        $this->load->view('templates/footer');
+    }
+
      public function add_student() {
         $data['title'] = 'Create account';
         $this->form_validation->set_rules('txtidnumber', 'cId', 'required');
@@ -210,6 +216,7 @@ class User extends CI_Controller {
             redirect('dashboard/admin_dashboard');
 
         }
+
     }
     public function logout() {
         $this->session->sess_destroy();

@@ -383,4 +383,12 @@ a:hover {
 .User_profile {
   padding-top: 100px !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003359}}
+.Profile {
+  padding-top: 100px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003361}}
+  .Profile .profile-margin {
+    margin-left: 10%;
+    margin-right: 10%; }
+
 /*# sourceMappingURL=style.css.map */
