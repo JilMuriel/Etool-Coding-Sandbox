@@ -18,11 +18,15 @@ class Dashboard extends CI_Controller {
         $this->load->view('admin_dashboard_view',$result);
         $this->load->view('templates/footer');
     }
-    public function instructor_dashboard() {
+    public function instructor_dashboard($id = '') {
         $data['title'] = "Welcome";
+         $this->load->model('User_model');
+        $result = $this->User_model->getreq2(); 
+        $where = array('cId' => $id); 
+        $this->User_model->deleteRecord('tbl_user_student',$where);
         $this->load->view('templates/header', $data);
         $this->load->view('templates/header_content');
-        $this->load->view('instructor_dashboard_view');
+        $this->load->view('instructor_dashboard_view', $result);
         $this->load->view('templates/footer');
     }
     public function create_project() {

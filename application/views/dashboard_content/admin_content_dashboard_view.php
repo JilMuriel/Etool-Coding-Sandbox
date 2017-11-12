@@ -27,11 +27,16 @@
               </li>
             </ul>
             <div class="tab-content" id="myTabContent">
+              
               <div class="tab-pane fade show active" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                 <!-- instructor -->
+                <?php echo form_open('user/add_ins'); ?>
+                <div class="form-group ml-2 mr-2">
+                  <input hidden="" type="text" class="form-control robot" id="instructor" name="txtprev" value="instructor">
+                </div>
                 <div class="form-group ml-2 mr-2">
                   <label for="instructor">Instructor ID</label>
-                  <input type="text" class="form-control robot" id="instructor" placeholder="ex *1143103">
+                  <input type="text" class="form-control robot" id="instructor" name="txtidnumber" placeholder="ex *1143103">
                 </div>
                 <div class="form-group ml-2 mr-2">
                   <input type="text" class="form-control robot" id="instructor" placeholder="Firstname">
@@ -40,12 +45,16 @@
                   <input type="text" class="form-control robot" id="instructor" placeholder="Lastname">
                 </div>
                 <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
+                <?php echo form_close(); ?>
               </div>
-              <!-- student -->
               <div class="tab-pane fade" id="student" role="tabpanel" aria-labelledby="student-tab">
+                <?php echo form_open('user/add_student_ins'); ?>
+                <div class="form-group ml-2 mr-2">
+                  <input hidden="" type="text" class="form-control robot" id="instructor" name="txtprev" value="student">
+                </div>
                 <div class="form-group ml-2 mr-2">
                   <label for="instructor">Student ID</label>
-                  <input type="text" class="form-control robot" id="instructor" placeholder="ex *1143103">
+                  <input type="text" class="form-control robot" id="instructor" name="txtidnumber" placeholder="ex *1143103">
                 </div>
                 <div class="form-group ml-2 mr-2">
                   <input type="text" class="form-control robot" id="instructor" placeholder="Firstname">
@@ -54,7 +63,9 @@
                   <input type="text" class="form-control robot" id="instructor" placeholder="Lastname">
                 </div>
                 <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
+                <?php echo form_close(); ?>
               </div>
+             
             </div>
 
           </div>
@@ -91,11 +102,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1"><?php echo $perreq->cFirstname;?><?php echo " ".$perreq->cLastname;?></h6>
                 <h6 class="pt-0 mt-0"><small><?php echo $perreq->cType;?></small></h6>
-<<<<<<< HEAD
                 <button type="button" class="btn btn-outline-info" onclick="window.location.href='<?php echo base_url('dashboard/user_profile/'.$perreq->cId)?>'">More info</button>
-=======
-                <a href="<?php echo base_url('dashboard/user_profile'); ?>" class="btn btn-outline-info">More info</a>
->>>>>>> 7ae99db85497fe238dfabfac02663b6503f306d8
               </div>
             </div>
           </div>
@@ -121,11 +128,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1"><?php echo $perreqa->cFirstname;?><?php echo " ".$perreqa->cLastname;?></h6>
                 <h6 class="pt-0 mt-0"><small><?php echo $perreqa->cType;?></small></h6>
-<<<<<<< HEAD
-                <button type="button" class="btn btn-outline-info" onclick="window.location.href='<?php echo base_url('dashboard/user_profile')?>'">More info</button>
-=======
-                <a href="<?php echo base_url('dashboard/user_profile'); ?>" class="btn btn-outline-info">More info</a>
->>>>>>> 7ae99db85497fe238dfabfac02663b6503f306d8
+                <button type="button" class="btn btn-outline-info" onclick="window.location.href='<?php echo base_url('dashboard/user_profile/'.$perreq->cId)?>'">More info</button>
               </div>
             </div>
           </div>
@@ -154,11 +157,7 @@
                 <img class="img-fluid" style="height: 100px; width: 100px;" src="<?php echo base_url('/assets/img/person-icon-8.png'); ?>">
                 <h6 class="pt-2 mb-1"><?php echo $perreqa->cFirstname;?><?php echo " ".$perreqa->cLastname;?></h6>
                 <h6 class="pt-0 mt-0"><small><?php echo $perreqa->cType;?></small></h6>
-<<<<<<< HEAD
-                <button type="button" class="btn btn-outline-info" onclick="window.location.href='<?php echo base_url('dashboard/user_profile')?>'">More info</button>
-=======
-                <a href="<?php echo base_url('dashboard/user_profile'); ?>" class="btn btn-outline-info">More info</a>
->>>>>>> 7ae99db85497fe238dfabfac02663b6503f306d8
+                <button type="button" class="btn btn-outline-info" onclick="window.location.href='<?php echo base_url('dashboard/user_profile/'.$perreq->cId)?>'">More info</button>
               </div>
             </div>
           </div>

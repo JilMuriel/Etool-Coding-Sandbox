@@ -15,12 +15,8 @@
 					    <div class="form-group">
 					    	<input type="password" class="form-control" placeholder="Confirm password">
 					    </div>
-					    <div class="form-group">
-					    	<input type="email" class="form-control" name="txtemail" placeholder="Email">
-					    </div>
-					    <button type="submit" class="btn btn-custom w-100 mb-3" >Create my account</button>
+					    <button type="submit" class="btn btn-custom w-100 mb-3" >done</button>
 					<?php echo form_close(); ?>
-					<a href="<?php echo base_url('user'); ?>" class="w-100 text-center">Already have an account? Login in here</a>
 				</div>
 			</div>
 			</div>

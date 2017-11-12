@@ -1,67 +1,93 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\000031}}
 body {
   background-color: #F8F8F8;
   height: 100vh;
   font-family: 'Raleway', sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\000036}}
 .robot {
   font-family: 'Roboto Condensed', sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\000039}}
 .lp-robot {
   font-family: 'Roboto light', sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000312}}
 hr {
   padding: 0;
   margin: 1em 0px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000316}}
 .accent {
   color: #175A8B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000319}}
 .shadow {
   box-shadow: 0px 0.1px 10px 0.1px #666; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000322}}
 .card-shadow {
   box-shadow: 0px -1px 13px -7px rgba(0, 0, 0, 0.66); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000325}}
 .shadow-super-light {
   box-shadow: 0px 0.1px 5px 0.1px #777; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000328}}
 .shadow-light {
   box-shadow: 0px 0.1px 10px 0.1px #555; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000331}}
 .btn-custom {
   background-color: #175A8B;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000335}}
 .btn-custom:hover {
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000338}}
 .btn-custom1 {
   background-color: #3D5B6F;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000342}}
 .btn-custom1:hover {
   background-color: #1D2D38;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000346}}
 .landing-btn {
   background-color: #222;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000350}}
 .landing-btn:hover {
   background-color: #161616;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000354}}
 .landing-btn1 {
   background: #175A8B;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000358}}
 .landing-btn1:hover {
   background: #134a72;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000362}}
+.landing-btn2:hover {
+  background: #134a72;
+  color: #fff;
+  transition: all .7s ease;
+  -webkit-transition: all .7s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000368}}
 a {
   color: #077BC9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000372}}
 .Login {
   background-image: url("/assets/img/bg-transparent.png");
   background-size: cover;
@@ -70,10 +96,12 @@ a {
   background-attachment: fixed;
   background-color: #6693B2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000381}}
 .l-center {
   margin: auto;
   padding-top: 20vh; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000385}}
 .login-card {
   background: #fff;
   border-radius: 4px;
@@ -81,9 +109,11 @@ a {
   margin-right: auto;
   padding: 25px 23px 25px 23px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000392}}
 .r-center {
   padding-top: 15vh; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\0000395}}
 .validate {
   background-image: url("/assets/img/bg-transparent.png");
   background-size: cover;
@@ -92,6 +122,7 @@ a {
   background-attachment: fixed;
   background-color: #6693B2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003104}}
 .CreateAccount {
   background-image: url("/assets/img/bg-transparent.png");
   background-size: cover;
@@ -100,6 +131,7 @@ a {
   background-attachment: fixed;
   background-color: #6693B2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003113}}
 .register-card {
   background: #fff;
   border-radius: 4px;
@@ -107,13 +139,16 @@ a {
   margin-right: auto;
   padding: 25px 30px 25px 30px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003120}}
 .form-group {
   margin-top: 25px;
   margin-bottom: 25px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003124}}
 .p-center {
   padding-top: 23vh; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003127}}
 .project-card {
   background: #6693B2;
   border-radius: 4px;
@@ -121,10 +156,12 @@ a {
   margin-right: auto;
   padding: 25px 23px 25px 23px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003134}}
 .dashboard-nav {
   background-color: #5A83BC;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003138}}
 .sidebar {
   position: fixed;
   top: 65px;
@@ -136,40 +173,52 @@ a {
   overflow-x: hidden;
   overflow-y: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003149}}
 .right-nav {
   margin-top: 55px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003152}}
 .post-card-h {
   background-color: #6693B2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003155}}
 .Dashboard {
   padding-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003158}}
   .Dashboard .container-fluid .right-nav {
     margin-left: 50px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003163}}
 .Dashboard1 {
   padding-top: 15px;
   background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003167}}
   .Dashboard1 .container-fluid .right-nav {
     margin-left: 50px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003177}}
 .p-card {
   background-color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003180}}
 .project-card-header {
   background-color: #6693B2;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003184}}
 .header-ide {
   background-color: #8D8D8D; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003187}}
 .card-ide {
   background-color: #6D6969; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003190}}
 .text-ide {
   background-color: #6D6969;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003194}}
 .Main-Page {
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,23 +227,27 @@ a {
   width: 100%;
   background: linear-gradient(#686E77, #3d4044);
   color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003203}}
   .Main-Page .landing-container {
     height: 95vh;
     width: 100%;
     padding-top: 25vh;
     padding-bottom: 10vh; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003212}}
 .Bottom-Page {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background: linear-gradient(#175A8B, #175A8B);
   color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003219}}
   .Bottom-Page .landing-container {
     height: 25vh;
     padding-top: 25vh;
     padding-bottom: 10vh; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003227}}
 .About {
   width: 100%;
   background-color: White;
@@ -202,6 +255,7 @@ a {
   background-repeat: no-repeat;
   background-position: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003234}}
 .footer-Page {
   background-repeat: no-repeat;
   background-position: center;
@@ -210,40 +264,50 @@ a {
   width: 100%;
   font-weight: lighter;
   font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003243}}
   .footer-Page .landing-container1 {
     height: 1px;
     padding-top: 1vh;
     padding-bottom: 10vh; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003252}}
 .card-btn {
   padding-left: 5px !important;
   padding-right: 5px !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003256}}
 .nav-btn {
   background-color: #e2e2e2;
   color: white; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003260}}
 .nav-btn:hover {
   background-color: #e1e1e1;
   color: white; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003264}}
 .nav-bg {
   background-color: #e2e2e2;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003268}}
 .nav-bg:hover {
   color: #fff;
   background-color: #e1e1e1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003272}}
 .carousel-indicator .active {
   background-color: #222 !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003275}}
 .Guide {
   background-color: #6693B2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003278}}
 .guide-inner {
   padding-top: 12vh; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003281}}
 .sidenav_creator {
   position: fixed;
   height: 100%;
@@ -255,24 +319,30 @@ a {
   overflow-x: hidden;
   overflow-y: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003292}}
 .right-nav-creator {
   margin-top: 55px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003295}}
 .creator-content-dashboard {
   padding-left: 30px !important;
   background-color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003300}}
 #tool-box {
   border: 0px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003305}}
 .text_edit {
   width: 500px;
   height: 300px;
   resize: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003315}}
 #view_text {
   width: 500px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003320}}
 #myBtn {
   display: none;
   position: fixed;
@@ -287,14 +357,17 @@ a {
   padding: 10px;
   border-radius: 50px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003334}}
 #myBtn:hover {
   background-color: #0d3e60;
   transition: all .9s ease;
   -webkit-transition: all .9s ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003340}}
 .Instructor {
   padding-top: 100px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003343}}
 .User_profile {
   padding-top: 100px !important; }
 
