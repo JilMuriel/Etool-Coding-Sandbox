@@ -44,6 +44,16 @@ class User_model extends CI_Model {
     $last_three_record=array_slice($result,-3,3,true);
     return array("all_data"=>$result,"num_rows"=>$num_rows,"last_three"=>$last_three_record);
 	}
+	public function getreq1($id){
+	$this->load->database();
+	$this->db->where('cId',$id);
+    $query=$this->db->get('tbl_user_student');
+    $result=$query->result();
+    $num_rows=$query->num_rows();
+    $last_three_record=array_slice($result,-3,3,true);
+    return array("all_data"=>$result,"num_rows"=>$num_rows,"last_three"=>$last_three_record);
+	}
+
 	public function deleteRecord($table, $where = array()) {
 	  $this->db->where($where);
 	  $res = $this->db->delete($table); 
