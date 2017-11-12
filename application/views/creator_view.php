@@ -89,25 +89,35 @@
             </ul>
             <ul class="nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link btn btn-custom" href="#">Run</a>
+                <a class="nav-link btn btn-primary" href="#">Run</a>
               </li>
               <li class="nav-item ml-2 mr-2">
-                <a class="nav-link btn btn-custom" href="#">Clear</a>
+                <a class="nav-link btn btn-primary" href="#">Clear</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-custom" href="#">Export</a>
+                <a class="nav-link btn btn-primary" href="#">Export</a>
               </li>
             </ul>
           </nav>
           <div class="card-body"  style="height: 30vh;"></div>
         </div>
-        <div class="card mt-3">
-          <div class="card-body"  style="height: 30vh;"></div>
+        <div class="card mt-3 shadow-super-light ">
+          <div class="card-body"  style="height: 30vh;">
+            output here
+          </div>
         </div>
       </div>
       <div class="col-2">
-        <div class="card">
-          <div class="card-body"></div>
+        <div class="card shadow-super-light">
+          <div class="card-header">
+            <h5>Functions</h5>
+          </div>
+         <div class="card-body">
+           <button type="button" class="btn btn-secondary w-100 mt-1">Create Login</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1">CRUD</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1">Select</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1">Update</button>
+         </div>
         </div>
       </div>
     </div>
