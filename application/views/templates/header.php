@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/introjs.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/introjs-rtl.min.css">
 	<link rel="stylesheet" type="text/css" href="/assets/codemirror/lib/codemirror.css">
 	<link rel="stylesheet" type="text/css" href="/assets/themes/monokai.css">
 	<link rel="stylesheet" type="text/css" href="/assets/themes/midnight.css">

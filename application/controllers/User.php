@@ -60,9 +60,7 @@ class User extends CI_Controller {
         $this->form_validation->set_rules('txtuserid', 'User ID','trim|required');
 
         if ($this->form_validation->run() == FALSE) {
-            $this->load->view('templates/header', $data);
-            $this->load->view('enter_id_view');
-            $this->load->view('templates/footer');
+           
         } else {
             $account_id = $this->security->xss_clean($this->input->post('txtuserid'));
             $this->session->set_userdata('txtuserid', $account_id);

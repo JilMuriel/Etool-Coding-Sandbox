@@ -6,7 +6,7 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <!-- code mirror -->
 <script src="/assets/js/myjs.js"></script>
-
+<script src="/assets/js/intro.min.js"></script>
 <script type="text/javascript">
 //start of export project
 $('#result').each(function() {

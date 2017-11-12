@@ -1,47 +1,115 @@
-<!-- <div class="row">
-  <div class="col-sm-12 col-md-6 col-lg-3 card bg-dark h-100">
-    <div class="card-body"></div>
-  </div>
-  <div class="col-sm-12 col-md-6 col-lg-3 card bg-primary h-100">
-    <div class="card-body"></div>
-  </div>
-  <div class="col-sm-12 col-md-6 col-lg-3 card bg-success h-100">
-    <div class="card-body"></div>
-  </div>
-  <div class="col-sm-12 col-md-6 col-lg-3 card bg-default h-100">
-    <div class="card-body"></div>
-  </div>
-</div> -->
-
-<div class="Dashboard">
-   <div class="container-fluid ml-0 ">
-      <div class="row">
-        <nav class="d-none d-sm-block sidenav_creator shadow-super-light text-center">
-          <ul class="nav nav-pills flex-column text-light">
-            <li class="nav-item p-2 bg-dark">
-              <a class="nav-link text-light" href="#">
-                <h4><i class="fa fa-user-circle" aria-hidden="true"></i></h4>
-                User
-              </a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="#">
-                <h4 class="mb-0"><i class="fa fa-floppy-o" aria-hidden="true"></i></h4>
-              </a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="#">
-                <h4 class="mb-0"><i class="fa fa-info-circle" aria-hidden="true"></i></h4>
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <main role="main" class="right-nav w-100 pl-3">
-          <div class="content-dashboard pt-1 pl-4 pr-4 pb-2">
-           
+<nav class="dashboard-nav navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand" href="<?php echo base_url('main'); ?>"><h3>Etool</h3></a>
+    <div class="navbar-nav ml-auto">
+         <li class="nav-item dropdown  mr-1">
+          <a class="nav-item nav-link active dropdown-toggle" data-toggle="dropdown" href="#">
+            <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+          </a>
+          <!-- dropdown items here -->
+          <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="<?php echo base_url('user/profile'); ?>">Profile</a>
+            <a class="dropdown-item" href="<?php echo base_url('user/logout'); ?>">Logout</i></a>
           </div>
-        </main>
+          <!-- end of dropdown -->
+        </li>
+      </div>
+</nav>
+<div class="backend-editor">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-super-light ">
+    <ul class="nav mr-auto ml-3">
+      <h5 class="nav-item m-auto">Project Title</h5>
+    </ul>
+    <ul class="nav ml-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link btn btn-custom" href="#">New Project</a>
+      </li>
+      <li class="nav-item ml-2 mr-2">
+        <a class="nav-link btn btn-custom" href="#">Save</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn btn-custom" href="#">Help</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="coding-ground pt-3 h-100">
+    <div class="row m-0 p-0">
+      <div class="col-2">
+        <div class="card">
+
+            
+            <div id="accordion" role="tablist">
+              <div class="card">
+                <div class="card-header" role="tab" id="headingOne">
+                  <h6 class="mb-0">
+                    <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      tbl_users
+                    </a></strong></small>
+                  </h6>
+                </div>
+                <!-- laman here -->
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body pt-2 pb-2">
+                        <p><small>username  int(11) <i class="fa fa-key text-warning" aria-hidden="true"></i></small></p>
+                        <p><small>username  varchar(45) </small></p>
+                        <p><small>password  varchar(45) </small></p>
+                        <p><small>username  varchar(45) </small></p>
+                      </div>
+                </div>
+
+                <div class="card-header" role="tab" id="headingtwo">
+                  <h6 class="mb-0">
+                    <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      tbl_users
+                    </a></strong></small>
+                  </h6>
+                </div>
+                <!-- laman here -->
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingtwo" data-parent="#accordion">
+                      <div class="card-body pt-2 pb-2">
+                        <p><small>username  int(11) <i class="fa fa-key text-warning" aria-hidden="true"></i></small></p>
+                        <p><small>username  varchar(45) </small></p>
+                        <p><small>password  varchar(45) </small></p>
+                        <p><small>username  varchar(45) </small></p>
+                      </div>
+                </div>
+
+              </div>
+            </div>
+
+
+        </div>
+      </div>
+      <div class="col-8">
+
+        <div class="card shadow-super-light ">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light border">
+            <ul class="nav mr-auto ml-3">
+              <h5 class="nav-item m-auto">Etool Editor</h5>
+            </ul>
+            <ul class="nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link btn btn-custom" href="#">Run</a>
+              </li>
+              <li class="nav-item ml-2 mr-2">
+                <a class="nav-link btn btn-custom" href="#">Clear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-custom" href="#">Export</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="card-body"  style="height: 30vh;"></div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-body"  style="height: 30vh;"></div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card">
+          <div class="card-body"></div>
+        </div>
       </div>
     </div>
+  </div>
 </div>
