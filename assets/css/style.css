@@ -164,7 +164,7 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003138}}
 .sidebar {
   position: fixed;
-  top: 78px;
+  top: 65px;
   max-width: 15%;
   background-color: #fff;
   bottom: 0;
@@ -362,5 +362,13 @@ a {
   background-color: #0d3e60;
   transition: all .9s ease;
   -webkit-transition: all .9s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003340}}
+.Instructor {
+  padding-top: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003343}}
+.User_profile {
+  padding-top: 100px !important; }
 
 /*# sourceMappingURL=style.css.map */
