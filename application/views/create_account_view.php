@@ -15,7 +15,7 @@
 					    <div class="form-group">
 					    	<input type="password" class="form-control" placeholder="Confirm password">
 					    </div>
-					    <button type="submit" class="btn btn-custom w-100 mb-3" >Submit</button>
+					    <button type="submit" class="btn btn-custom w-100 mb-3" >done</button>
 					<?php echo form_close(); ?>
 				</div>
 			</div>
