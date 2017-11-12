@@ -94,7 +94,7 @@ function topFunction() {
      <div class="row text-center shadow-super-light">
     <div class="col-md p-1">  
     <div class="p-5" style="background-color: white; width: 100%; height: 200px; ">
-     <a class="nav-link display-2" href="<?php echo base_url('Learn#php'); ?>" id="navbarDropdown"  aria-expanded="false" style="font-size: 5vw; color:#3cabfc;">LEARN PHP</a> 
+     <a class="learn nav-link display-2" href="<?php echo base_url('Learn#php'); ?>" id="navbarDropdown"  aria-expanded="false" style="font-size: 5vw; color:#3cabfc;">LEARN PHP</a> 
     </div>
     </div>
     <div class="col-md p-1 ">
