@@ -154,6 +154,15 @@ a {
 		}
 	}
 }
+.Dashboard1 {
+	padding-top: 15px;
+	background-color:white;
+	.container-fluid {
+		.right-nav {
+			margin-left: 50px;
+		}
+	}
+}
 .Admin_dashboard {
 	.container-fluid {
 
@@ -281,21 +290,51 @@ a {
 	padding-left: 30px !important;
 	background-color: #fff;
 }
-//user profile view via admin
+
+#tool-box{
+
+
+border:0px;		
+
+}
+.text_edit {
+
+    width: 500px;
+
+    height: 300px;
+
+    resize: none;
+
+}
+
+#view_text {
+	
+    width: 500px;
+
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right:10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #32aaff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px;
+}
+#myBtn:hover {
+  background-color: #0d3e60;
+transition: all .9s ease;
+-webkit-transition: all .9s ease;
+  }
+
+.Instructor {
+	padding-top: 100px;
+}
 .User_profile {
 	padding-top: 100px !important;
-}
-.table {
-	border-radius: 6px;
-	background-color: #fff;
-}
-.table td, .table th {
-	padding: 18px 25px;
-	padding-left: 40px;
-	padding-right: 40px;
-	font-size: 1em;
-	font-family: 'Open Sans', sans-serif;
-}
-.table td, .table th {
-	border-top: 2px solid #e9ecef;
 }

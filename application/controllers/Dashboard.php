@@ -18,6 +18,13 @@ class Dashboard extends CI_Controller {
         $this->load->view('admin_dashboard_view',$result);
         $this->load->view('templates/footer');
     }
+    public function instructor_dashboard() {
+        $data['title'] = "Welcome";
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/header_content');
+        $this->load->view('instructor_dashboard_view');
+        $this->load->view('templates/footer');
+    }
     public function create_project() {
         $data['title'] = 'Create Project';
         $this->load->view('templates/header' , $data);
