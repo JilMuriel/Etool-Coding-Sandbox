@@ -118,7 +118,7 @@
         }
 67
     </script>
-68
+
      
 
 
@@ -158,7 +158,7 @@
    Introduction to E-tool  </div>
   <div class="card-body" style="height:300px;">
     <div class="h-100 " style="background-color: black; width: 100%; height: 100px;">
-      <h1 class="display-2 p-5  mx-auto animated fadeIn" style="font-size: 10vw;">Getting involved</h1>
+      <h1 class=" landing-btn3  display-2 p-5  mx-auto animated fadeIn" style="font-size: 10vw;">Getting involved</h1>
     </div>
   </div>
 </div>
@@ -205,7 +205,7 @@
      
 
     <!-- Text area -->
-    
+
   <textarea class="text_edit mx-auto shadow-super-light" id="my_text"  style=" width: 100%; border: 10px;">
   <!DOCTYPE html>
    <html>
