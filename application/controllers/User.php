@@ -106,7 +106,109 @@ class User extends CI_Controller {
             $id = $this->session->userdata('txtuserid');
             $this->user_model->m_register($id, $data);
             $this->session->sess_destroy();
+            $this->load->view('templates/header', $data);
+            $this->load->view('create_user_view');
+            $this->load->view('templates/footer');
+        }
+    }
+
+    public function create_user() {
+        $data['title'] = 'Create account';
+        $this->form_validation->set_rules('txtfirstname', 'cFirstname', 'required');
+        $this->form_validation->set_rules('txtlastname', 'cLastname', 'required');
+        $this->form_validation->set_rules('txtemail', 'cEmail', 'required');
+
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('templates/header', $data);
+            $this->load->view('create_user_view');
+            $this->load->view('templates/footer');
+        }
+        else {
+            $data = array(
+                'cFirstname' => $this->input->post('txtfirstname'),
+                'cLastname' => $this->input->post('txtlastname'),
+                'cEmail' => $this->input->post('txtemail'),
+                // 'fname' => $this->input->post('txtfname'),
+                // 'lname' => $this->input->post('txtlname')
+            );
+            $this->user_model->create_user($data);
+            $this->session->sess_destroy();
             redirect('user');
+        }
+    }
+
+     public function add_student() {
+        $data['title'] = 'Create account';
+        $this->form_validation->set_rules('txtidnumber', 'cId', 'required');
+        // $this->form_validation->set_rules('txtemail', 'Email', 'required');
+
+
+        if ($this->form_validation->run() == FALSE) {
+            redirect('dashboard/instructor_dashboard');
+        }
+        else {
+            $data = array(
+                'account_id' => $this->input->post('txtidnumber'),
+                'account_privilege' => $this->input->post('txtprev'),
+                // 'password' => $this->input->post('txtpassword'),
+                // 'email' => $this->input->post('txtemail')
+                // 'fname' => $this->input->post('txtfname'),
+                // 'lname' => $this->input->post('txtlname')
+            );
+            $this->user_model->add_stud($data);
+            $this->session->sess_destroy();
+            redirect('dashboard/instructor_dashboard');
+
+        }
+    }
+
+    public function add_student_ins() {
+        $data['title'] = 'Create account';
+        $this->form_validation->set_rules('txtidnumber', 'cId', 'required');
+        // $this->form_validation->set_rules('txtemail', 'Email', 'required');
+
+
+        if ($this->form_validation->run() == FALSE) {
+            redirect('dashboard/instructor_dashboard');
+        }
+        else {
+            $data = array(
+                'account_id' => $this->input->post('txtidnumber'),
+                'account_privilege' => $this->input->post('txtprev'),
+                // 'password' => $this->input->post('txtpassword'),
+                // 'email' => $this->input->post('txtemail')
+                // 'fname' => $this->input->post('txtfname'),
+                // 'lname' => $this->input->post('txtlname')
+            );
+            $this->user_model->add_stud_ins($data);
+            $this->session->sess_destroy();
+            redirect('dashboard/admin_dashboard');
+
+        }
+    }
+    public function add_ins() {
+        $data['title'] = 'Create account';
+        $this->form_validation->set_rules('txtidnumber', 'cId', 'required');
+        // $this->form_validation->set_rules('txtemail', 'Email', 'required');
+
+
+        if ($this->form_validation->run() == FALSE) {
+            redirect('dashboard/instructor_dashboard');
+        }
+        else {
+            $data = array(
+                'account_id' => $this->input->post('txtidnumber'),
+                'account_privilege' => $this->input->post('txtprev'),
+                // 'password' => $this->input->post('txtpassword'),
+                // 'email' => $this->input->post('txtemail')
+                // 'fname' => $this->input->post('txtfname'),
+                // 'lname' => $this->input->post('txtlname')
+            );
+            $this->user_model->add_ins($data);
+            $this->session->sess_destroy();
+            redirect('dashboard/admin_dashboard');
+
         }
     }
     public function logout() {
