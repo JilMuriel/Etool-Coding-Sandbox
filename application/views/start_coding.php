@@ -196,7 +196,7 @@
   <div class="container-fluid mx-auto p-5">
   <div class="row">
     <div class="col-md">
-     
+  
  <input class="shadow-super-light" type="button" value="try" style="  border: 10px;" onclick="mod_selection('[b]','[/b]')" />
 
    
@@ -205,17 +205,17 @@
      
 
     <!-- Text area -->
-
-    <textarea class="text_edit mx-auto shadow-super-light" id="my_text"  style=" width: 100%; border: 10px;">
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title></title>
-    </head>
-    <body>
     
-    </body>
-    </html>  </textarea>
+  <textarea class="text_edit mx-auto shadow-super-light" id="my_text"  style=" width: 100%; border: 10px;">
+  <!DOCTYPE html>
+   <html>
+   <head>
+   <title></title>
+   </head>
+   <body>
+    
+   </body>
+   </html>  </textarea>
 
     <br/>
 
@@ -239,10 +239,14 @@
         </div>
     </div>        
 </div> 
+ 
+    </div>
+  </div>
 <div class="Dashboard">
   </div>
 </div>
 <div class="Dashboard">
+
    <div class="container mx-auto "> 
      <div class="row text-center shadow-super-light" style="height:300px">
 
