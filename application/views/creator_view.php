@@ -25,7 +25,7 @@
         <a class="nav-link btn btn-custom" href="#" data-intro="Go ahead, try creating a new project">New Project</a>
       </li>
       <li class="nav-item ml-2 mr-2">
-        <a class="nav-link btn btn-custom" href="#" data-intro="You can always save your project">Save</a>
+        <a class="nav-link btn btn-custom" href="#" data-intro="To Save Project">Save</a>
       </li>
       <li class="nav-item">
         <a class="nav-link btn btn-custom" href="javascript:void(0)" onclick="introJs().start();">Help</a>
@@ -38,11 +38,9 @@
         <div class="card">
 
             
-            <div id="accordion" role="tablist"  data-intro="This is your database table">
-              <div class="card"  data-intro="This is where you can see your created tables and field names">
-                  <div data-intro="For example "> </div>
-                <div class="card-header"  role="tab" id="headingOne" data-intro=" Click your created table to see attributes " >
-                
+            <div id="accordion" role="tablist" data-intro="This is your database table">
+              <div class="card" data-intro="This is where you can see your created tables and field names">
+                <div class="card-header" role="tab" id="headingOne" data-intro=" Click your created table to see attributes ">
                   <h6 class="mb-0">
                     <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       tbl_users
@@ -51,7 +49,7 @@
                 </div>
                 <!-- laman here -->
                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body pt-2 pb-2" >
+                      <div class="card-body pt-2 pb-2">
                         <p><small>username  int(11) <i class="fa fa-key text-warning" aria-hidden="true"></i></small></p>
                         <p><small>username  varchar(45) </small></p>
                         <p><small>password  varchar(45) </small></p>
@@ -84,41 +82,49 @@
       </div>
       <div class="col-8">
 
-        <div class="card shadow-super-light " data-intro="This is your main text-editor. Try it out">
+        <div class="card shadow-super-light " data-intro="Write the code here">
           <nav class="navbar navbar-expand-lg navbar-light bg-light border">
-            <ul class="nav mr-auto ml-3">
+            <ul class="nav mr-auto ml-3" data-intro="This is your main text-editor. Try it out">
               <h5 class="nav-item m-auto">Etool Editor</h5>
             </ul>
             <ul class="nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#" data-intro="Execute the code with this">Run</a>
+                <button class="nav-link btn btn-outline-danger" data-intro="Execute the code with this" id="run_button1">Run</button>
               </li>
               <li class="nav-item ml-2 mr-2">
-                <a class="nav-link btn btn-primary" href="#" data-intro="To clear the text-editor">Clear</a>
+                <a class="nav-link btn btn-outline-primary" href="#" data-intro="To Clear the Editor" id="clear_button1">Clear</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#" data-intro="You can always export your project, feel free.">Export</a>
+                <a class="nav-link btn btn-outline-primary" href="#" data-intro="To Import File">Import</a>
+              </li>
+              <li class="nav-item ml-2 mr-2">
+                <a class="nav-link btn btn-outline-primary" href="#" data-intro="To Export Project"  data-toggle="modal" data-target="#export">Export</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-success" href="#" data-intro="To Save">Save</a>
               </li>
             </ul>
           </nav>
-          <div class="card-body"  style="height: 30vh;"></div>
+          <div class="card-body"  style="height: 50vh;">
+            <textarea id="phpbox1" class="card-body"  style="height: 100%; width: 100%; border: none"></textarea>
+          </div>
         </div>
-        <div class="card mt-3 shadow-super-light"  data-intro="This will show you the output">
-          <div class="card-body"  style="height: 30vh;">
-            output here
+        <div class="card mt-3 shadow-super-light"  data-intro="Output Result">
+          <div class="card-body"  style="height: 40vh;">
+            <iframe id="result" style="height: 100%; width: 100%;" frameBorder="0"></iframe>
           </div>
         </div>
       </div>
       <div class="col-2">
-        <div class="card shadow-super-light" data-intro="This is the e-toolbox where Pre-made functions/syntaxes are provided, try it out">
+        <div class="card shadow-super-light" data-intro="Click for some Pre-made functions/syntax">
           <div class="card-header">
             <h5>Functions</h5>
           </div>
          <div class="card-body">
-           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">Create Login</button>
-           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">CRUD</button>
-           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">SELECT</button>
-           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">UPDATE</button>
+            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="create_login">Create Login</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="crud">CRUD</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="select">SELECT</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="update">UPDATE</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">SEARCH</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">DELETE</button>
          </div>
@@ -127,3 +133,72 @@
     </div>
   </div>
 </div>
+<div id="main" style="display: none">
+          <p id="yeah" >asdasdadadad</p>
+
+          <span>Hey there</span>
+      </div>
+
+<div class="modal fade" id="export" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group mt-2">
+          <input type="text" class="form-control" placeholder="Name" autocomplete="off">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="clickhere">Export</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  var doc = result.contentDocument;
+
+  run_button1.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.getValue());
+  });
+
+  create_login.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue('create'));
+  });
+
+  select.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue('select'));
+  });
+
+   crud.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue('crud'));
+  });
+
+  
+  var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('phpbox1'), {
+  mode:  "xml",
+  matchBrackets: true,
+  lineNumbers : true,
+});
+
+  clear_button1.addEventListener('click', function(){
+  doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue(' '));
+  });
+</script>
