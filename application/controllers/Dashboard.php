@@ -19,7 +19,7 @@ class Dashboard extends CI_Controller {
         $this->load->view('templates/footer');
     }
     public function instructor_dashboard() {
-        $data['title'] = 'Welcome ';
+        $data['title'] = "Welcome";
         $this->load->view('templates/header', $data);
         $this->load->view('templates/header_content');
         $this->load->view('instructor_dashboard_view');
