@@ -85,7 +85,7 @@ function topFunction() {
    Introduction to E-tool  </div>
   <div class="card-body" style="height:200px;">
     <div class="h-100 " style="background-color: black; width: 100%;">
-      <h1  class="display-2  mx-auto animated fadeIn" style="font-size: 10vw;">Getting Started</h1>
+      <h1  class="landing-btn3 display-2mx-auto animated fadeIn" style="font-size: 10vw;">Getting Started</h1>
     </div>
   </div>
 </div>
@@ -93,13 +93,13 @@ function topFunction() {
 	 <div class="container mx-auto ">
      <div class="row text-center shadow-super-light">
     <div class="col-md p-1">  
-    <div class="p-5" style="background-color: white; width: 100%; height: 200px; ">
-     <a class="learn nav-link display-2" href="<?php echo base_url('Learn#php'); ?>" id="navbarDropdown"  aria-expanded="false" style="font-size: 5vw; color:#3cabfc;">LEARN PHP</a> 
+    <div class="p-5 " style="background-color: white; width: 100%; height: 200px; ">
+     <a  class=" learn nav-link display-2" href="<?php echo base_url('Learn#php'); ?>" id="navbarDropdown" aria-expanded="false" style="font-size: 5vw; color:#3cabfc;">LEARN PHP.</a> 
     </div>
     </div>
     <div class="col-md p-1 ">
     <div class="p-5" style="background-color: white; width: 100%; height: 200px;">
-     <a class="nav-link display-2" href="<?php echo base_url('Learn#sql'); ?>" id="navbarDropdown"  aria-expanded="false" style="font-size: 5vw; color:#175A8B;">LEARN SQL</h1></a>
+     <a class="nav-link display-2" href="<?php echo base_url('Learn#sql'); ?>" id="navbarDropdown"  aria-expanded="false" style="font-size: 5vw; color:#175A8B;">LEARN SQL.</h1></a>
     </div>
     </div>
   </div>
