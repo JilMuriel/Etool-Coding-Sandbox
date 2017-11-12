@@ -109,6 +109,12 @@ class User extends CI_Controller {
             redirect('user');
         }
     }
+    public function profile() {
+        $data['title'] = 'Profile';
+        $this->load->view('templates/header', $data);
+        $this->load->view('user_profile_view');
+        $this->load->view('templates/footer');
+    }
     public function logout() {
         $this->session->sess_destroy();
         redirect('user');
