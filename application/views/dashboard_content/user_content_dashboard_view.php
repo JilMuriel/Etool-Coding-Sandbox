@@ -44,4 +44,4 @@
           		</div>
 
           	</div>
-               <a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Start Introjs</a>
+               <a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Tour</a>

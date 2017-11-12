@@ -19,6 +19,6 @@
 			</div>
 		</div>
 		<p class="text-center mt-5"><a href="<?php echo base_url('dashboard'); ?>" class="text-light" style="text-decoration:none">back to home</a></p>
-		<a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Start Introjs</a>
+		<a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Tour</a>
 	</div>
 </div>

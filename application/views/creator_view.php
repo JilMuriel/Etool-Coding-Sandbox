@@ -22,13 +22,13 @@
     <ul class="nav ml-auto">
       
       <li class="nav-item">
-        <a class="nav-link btn btn-custom" href="#">New Project</a>
+        <a class="nav-link btn btn-custom" href="#" data-intro="To Start a New Project">New Project</a>
       </li>
       <li class="nav-item ml-2 mr-2">
-        <a class="nav-link btn btn-custom" href="#">Save</a>
+        <a class="nav-link btn btn-custom" href="#" data-intro="To Save Project">Save</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn btn-custom" href="#">Help</a>
+        <a class="nav-link btn btn-custom" href="javascript:void(0)" onclick="introJs().start();">Help</a>
       </li>
     </ul>
   </nav>
@@ -39,7 +39,7 @@
 
             
             <div id="accordion" role="tablist">
-              <div class="card">
+              <div class="card" data-intro="List of Tables">
                 <div class="card-header" role="tab" id="headingOne">
                   <h6 class="mb-0">
                     <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -82,33 +82,33 @@
       </div>
       <div class="col-8">
 
-        <div class="card shadow-super-light ">
+        <div class="card shadow-super-light " data-intro="Write the code here">
           <nav class="navbar navbar-expand-lg navbar-light bg-light border">
             <ul class="nav mr-auto ml-3">
               <h5 class="nav-item m-auto">Etool Editor</h5>
             </ul>
             <ul class="nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#">Run</a>
+                <a class="nav-link btn btn-primary" href="#" data-intro="To Execute the code">Run</a>
               </li>
               <li class="nav-item ml-2 mr-2">
-                <a class="nav-link btn btn-primary" href="#">Clear</a>
+                <a class="nav-link btn btn-primary" href="#" data-intro="To Clear the Editor">Clear</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#">Export</a>
+                <a class="nav-link btn btn-primary" href="#" data-intro="To Export Project">Export</a>
               </li>
             </ul>
           </nav>
           <div class="card-body"  style="height: 30vh;"></div>
         </div>
-        <div class="card mt-3 shadow-super-light ">
+        <div class="card mt-3 shadow-super-light"  data-intro="Output Result">
           <div class="card-body"  style="height: 30vh;">
             output here
           </div>
         </div>
       </div>
       <div class="col-2">
-        <div class="card shadow-super-light">
+        <div class="card shadow-super-light" data-intro="Click for some Pre-made functions/syntax">
           <div class="card-header">
             <h5>Functions</h5>
           </div>
