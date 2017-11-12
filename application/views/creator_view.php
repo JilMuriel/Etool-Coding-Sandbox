@@ -22,10 +22,10 @@
     <ul class="nav ml-auto">
       
       <li class="nav-item">
-        <a class="nav-link btn btn-custom" href="#" data-intro="Go ahead, try creating a new project">New Project</a>
+        <a class="nav-link btn btn-custom" href="#" data-intro="To Start a New Project">New Project</a>
       </li>
       <li class="nav-item ml-2 mr-2">
-        <a class="nav-link btn btn-custom" href="#" data-intro="You can always save your project">Save</a>
+        <a class="nav-link btn btn-custom" href="#" data-intro="To Save Project">Save</a>
       </li>
       <li class="nav-item">
         <a class="nav-link btn btn-custom" href="javascript:void(0)" onclick="introJs().start();">Help</a>
@@ -38,11 +38,9 @@
         <div class="card">
 
             
-            <div id="accordion" role="tablist"  data-intro="This is your database table">
-              <div class="card"  data-intro="This is where you can see your created tables and field names">
-                  <div data-intro="For example "> </div>
-                <div class="card-header"  role="tab" id="headingOne" data-intro=" Click your created table to see attributes " >
-                
+            <div id="accordion" role="tablist">
+              <div class="card" data-intro="List of Tables">
+                <div class="card-header" role="tab" id="headingOne">
                   <h6 class="mb-0">
                     <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       tbl_users
@@ -51,7 +49,7 @@
                 </div>
                 <!-- laman here -->
                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body pt-2 pb-2" >
+                      <div class="card-body pt-2 pb-2">
                         <p><small>username  int(11) <i class="fa fa-key text-warning" aria-hidden="true"></i></small></p>
                         <p><small>username  varchar(45) </small></p>
                         <p><small>password  varchar(45) </small></p>
@@ -84,13 +82,14 @@
       </div>
       <div class="col-8">
 
-        <div class="card shadow-super-light " data-intro="This is your main text-editor. Try it out">
+        <div class="card shadow-super-light " data-intro="Write the code here">
           <nav class="navbar navbar-expand-lg navbar-light bg-light border">
             <ul class="nav mr-auto ml-3">
               <h5 class="nav-item m-auto">Etool Editor</h5>
             </ul>
             <ul class="nav ml-auto">
               <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link btn btn-primary" href="#" data-intro="Execute the code with this">Run</a>
               </li>
               <li class="nav-item ml-2 mr-2">
@@ -98,6 +97,8 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link btn btn-primary" href="#" data-intro="You can always export your project, feel free.">Export</a>
+=======
+>>>>>>> 5b766f78a2a7b19f1f5fd55e8f3e0379a97ada16
                 <button class="nav-link btn btn-outline-danger" data-intro="To Execute the code" id="run_button1">Run</button>
               </li>
               <li class="nav-item ml-2 mr-2">
@@ -111,7 +112,10 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link btn btn-outline-success" href="#" data-intro="To Save">Save</a>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5b766f78a2a7b19f1f5fd55e8f3e0379a97ada16
               </li>
             </ul>
           </nav>
@@ -119,11 +123,14 @@
             <textarea id="phpbox1" class="card-body"  style="height: 100%; width: 100%; border: none"></textarea>
           </div>
         </div>
+<<<<<<< HEAD
 
         <div class="card mt-3 shadow-super-light"  data-intro="This will show you the output">
           <div class="card-body"  style="height: 30vh;">
             output here
 
+=======
+>>>>>>> 5b766f78a2a7b19f1f5fd55e8f3e0379a97ada16
         <div class="card mt-3 shadow-super-light"  data-intro="Output Result">
           <div class="card-body"  style="height: 40vh;">
             <iframe id="result" style="height: 100%; width: 100%;" frameBorder="0"></iframe>
@@ -131,17 +138,20 @@
         </div>
       </div>
       <div class="col-2">
-        <div class="card shadow-super-light" data-intro="This is the e-toolbox where Pre-made functions/syntaxes are provided, try it out">
+        <div class="card shadow-super-light" data-intro="Click for some Pre-made functions/syntax">
           <div class="card-header">
             <h5>Functions</h5>
           </div>
          <div class="card-body">
+<<<<<<< HEAD
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">Create Login</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">CRUD</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">SELECT</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">UPDATE</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">SEARCH</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">DELETE</button>
+=======
+>>>>>>> 5b766f78a2a7b19f1f5fd55e8f3e0379a97ada16
            <button type="button" class="btn btn-secondary w-100 mt-1" id="create_login">Create Login</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" id="crud">CRUD</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" id="select">Select</button>
@@ -174,7 +184,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary" id="clickhere">export</button>
+        <button type="button" class="btn btn-primary" id="clickhere">Export</button>
       </div>
     </div>
   </div>
