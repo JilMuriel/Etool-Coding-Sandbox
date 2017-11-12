@@ -10,7 +10,7 @@
 							<div class="form-group mt-2">
 							    <input type="text" class="form-control" placeholder="Ex.'project-database'" autocomplete="off">
 							</div>
-							 <a href="<?php echo base_url('dashboard/project'); ?>" class="w-100 btn btn-custom1">Start project</a>
+							 <a href="<?php echo base_url('project'); ?>" class="w-100 btn btn-custom1">Start project</a>
 						</div>
 					</form>
 				</div>
