@@ -17,32 +17,8 @@
             </button>
           </div>
           <div class="modal-body">
-            
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="instructor-tab" data-toggle="tab" href="#instructor" role="tab" aria-controls="nstructor" aria-selected="true">Instructor</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="student-tab" data-toggle="tab" href="#student" role="tab" aria-controls="student" aria-selected="false">Student</a>
-              </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
-                <!-- instructor -->
-                <div class="form-group ml-2 mr-2">
-                  <label for="instructor">Instructor ID</label>
-                  <input type="text" class="form-control robot" id="instructor" placeholder="ex *1143103">
-                </div>
-                <div class="form-group ml-2 mr-2">
-                  <input type="text" class="form-control robot" id="instructor" placeholder="Firstname">
-                </div>
-                <div class="form-group ml-2 mr-2">
-                  <input type="text" class="form-control robot" id="instructor" placeholder="Lastname">
-                </div>
-                <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
-              </div>
               <!-- student -->
-              <div class="tab-pane fade" id="student" role="tabpanel" aria-labelledby="student-tab">
+
                 <div class="form-group ml-2 mr-2">
                   <label for="instructor">Student ID</label>
                   <input type="text" class="form-control robot" id="instructor" placeholder="ex *1143103">
@@ -54,9 +30,6 @@
                   <input type="text" class="form-control robot" id="instructor" placeholder="Lastname">
                 </div>
                 <button type="submit" class="btn btn-primary mt-3 float-right">Submit</button>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -65,19 +38,14 @@
 <div class="m-3 mr-3">
   <hr class="">
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
     <li class="nav-item">
-      <a class="nav-link active nav-bg" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">ALL</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link nav-bg ml-2 mr-2" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Student</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link nav-bg" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Instructor</a>
+      <a class="nav-link nav-bg ml-2 mr-2 active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Student</a>
     </li>
   </ul>
   <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-      <div class="row pt-3">
+            <div class="row pt-3">
             <div class="col-sm-6 col-md-3 col-lg-2 pl-3 pr-3">
             <div class="card p-3">
               <div class="text-right text-dark">
@@ -94,21 +62,7 @@
           </div>
       </div>
     </div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-      <div class="ml-2 mr-2">
-        <div class="row pt-3">
 
-        </div>
-      </div>
-    </div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-      <div class="ml-2 mr-2">
-        <div class="row pt-3">
-
-
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 

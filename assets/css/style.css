@@ -1,36 +1,301 @@
-/*
-Error: Invalid CSS after "...91388e77cb71455": expected "{", was ""
-        on line 343 of C:\Users\djibr\Documents\GitHub\Etool_development\assets\css\style.scss
+body {
+  background-color: #F8F8F8;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif; }
 
-338: .User_profile {
-339: 	padding-top: 100px !important;
-340: }
-341: =======
-342: >>>>>>> a50a46c68e90180abda93747891388e77cb71455
+.robot {
+  font-family: 'Roboto Condensed', sans-serif; }
 
-Backtrace:
-C:\Users\djibr\Documents\GitHub\Etool_development\assets\css\style.scss:343
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:18:in `load'
-C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...91388e77cb71455\": expected \"{\", was \"\"\A         on line 343 of C:\Users\djibr\Documents\GitHub\Etool_development\assets\css\style.scss\A \A 338: .User_profile {\A 339: 	padding-top: 100px !important;\A 340: }\A 341: =======\A 342: >>>>>>> a50a46c68e90180abda93747891388e77cb71455"; }
+.lp-robot {
+  font-family: 'Roboto light', sans-serif; }
+
+hr {
+  padding: 0;
+  margin: 1em 0px; }
+
+.accent {
+  color: #175A8B; }
+
+.shadow {
+  box-shadow: 0px 0.1px 10px 0.1px #666; }
+
+.card-shadow {
+  box-shadow: 0px -1px 13px -7px rgba(0, 0, 0, 0.66); }
+
+.shadow-super-light {
+  box-shadow: 0px 0.1px 5px 0.1px #777; }
+
+.shadow-light {
+  box-shadow: 0px 0.1px 10px 0.1px #555; }
+
+.btn-custom {
+  background-color: #175A8B;
+  color: #fff; }
+
+.btn-custom:hover {
+  color: #fff; }
+
+.btn-custom1 {
+  background-color: #3D5B6F;
+  color: #fff; }
+
+.btn-custom1:hover {
+  background-color: #1D2D38;
+  color: #fff; }
+
+.landing-btn {
+  background-color: #222;
+  color: #fff; }
+
+.landing-btn:hover {
+  background-color: #161616;
+  color: #fff; }
+
+.landing-btn1 {
+  background: #175A8B;
+  color: #fff; }
+
+.landing-btn1:hover {
+  background: #134a72;
+  color: #fff; }
+
+a {
+  color: #077BC9; }
+
+.Login {
+  background-image: url("/assets/img/bg-transparent.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #6693B2; }
+
+.l-center {
+  margin: auto;
+  padding-top: 20vh; }
+
+.login-card {
+  background: #fff;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 23px 25px 23px; }
+
+.r-center {
+  padding-top: 15vh; }
+
+.validate {
+  background-image: url("/assets/img/bg-transparent.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #6693B2; }
+
+.CreateAccount {
+  background-image: url("/assets/img/bg-transparent.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #6693B2; }
+
+.register-card {
+  background: #fff;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 30px 25px 30px; }
+
+.form-group {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.p-center {
+  padding-top: 23vh; }
+
+.project-card {
+  background: #6693B2;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 23px 25px 23px; }
+
+.dashboard-nav {
+  background-color: #5A83BC;
+  color: #fff; }
+
+.sidebar {
+  position: fixed;
+  top: 65px;
+  max-width: 15%;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.right-nav {
+  margin-top: 55px; }
+
+.post-card-h {
+  background-color: #6693B2; }
+
+.Dashboard {
+  padding-top: 15px; }
+  .Dashboard .container-fluid .right-nav {
+    margin-left: 50px; }
+
+.Dashboard1 {
+  padding-top: 15px;
+  background-color: white; }
+  .Dashboard1 .container-fluid .right-nav {
+    margin-left: 50px; }
+
+.p-card {
+  background-color: #fff; }
+
+.project-card-header {
+  background-color: #6693B2;
+  color: #fff; }
+
+.header-ide {
+  background-color: #8D8D8D; }
+
+.card-ide {
+  background-color: #6D6969; }
+
+.text-ide {
+  background-color: #6D6969;
+  color: #fff; }
+
+.Main-Page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  width: 100%;
+  background: linear-gradient(#686E77, #3d4044);
+  color: #fff; }
+  .Main-Page .landing-container {
+    height: 95vh;
+    width: 100%;
+    padding-top: 25vh;
+    padding-bottom: 10vh; }
+
+.Bottom-Page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(#175A8B, #175A8B);
+  color: #fff; }
+  .Bottom-Page .landing-container {
+    height: 25vh;
+    padding-top: 25vh;
+    padding-bottom: 10vh; }
+
+.About {
+  width: 100%;
+  background-color: White;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.footer-Page {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #144970;
+  color: #fff;
+  width: 100%;
+  font-weight: lighter;
+  font-size: 15px; }
+  .footer-Page .landing-container1 {
+    height: 1px;
+    padding-top: 1vh;
+    padding-bottom: 10vh; }
+
+.card-btn {
+  padding-left: 5px !important;
+  padding-right: 5px !important; }
+
+.nav-btn {
+  background-color: #e2e2e2;
+  color: white; }
+
+.nav-btn:hover {
+  background-color: #e1e1e1;
+  color: white; }
+
+.nav-bg {
+  background-color: #e2e2e2;
+  color: #fff; }
+
+.nav-bg:hover {
+  color: #fff;
+  background-color: #e1e1e1; }
+
+.carousel-indicator .active {
+  background-color: #222 !important; }
+
+.Guide {
+  background-color: #6693B2; }
+
+.guide-inner {
+  padding-top: 12vh; }
+
+.sidenav_creator {
+  position: fixed;
+  height: 100%;
+  max-width: 15%;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.right-nav-creator {
+  margin-top: 55px; }
+
+.creator-content-dashboard {
+  padding-left: 30px !important;
+  background-color: #fff; }
+
+#tool-box {
+  border: 0px; }
+
+.text_edit {
+  width: 500px;
+  height: 300px;
+  resize: none; }
+
+#view_text {
+  width: 500px; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #32aaff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px; }
+
+#myBtn:hover {
+  background-color: #0d3e60;
+  transition: all .9s ease;
+  -webkit-transition: all .9s ease; }
+
+.Instructor {
+  padding-top: 100px; }
+
+.User_profile {
+  padding-top: 100px !important; }
+
+/*# sourceMappingURL=style.css.map */
