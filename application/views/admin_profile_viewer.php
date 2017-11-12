@@ -5,11 +5,17 @@
 			<div class="d-inline-block pt-3">
 				<img src="<?php echo base_url('/assets/img/person-icon-8.png') ?>" class="img-fluid" style="height: 100px; width: 100px;">
 			</div>
+			 <?php
+	          foreach ($all_data as $perreq){
+	          ?>
 			<div class="d-inline-block align-middle ml-4">
-				<h4 class="accent">Vigil Muriel Boniol</h4>
-				<h6 class="m-0 p-0"><small>djibrilmuriel@gmail.com</small></h6>
+				<h4 class="accent"><?php echo $perreq->cFirstname . " " . $perreq->cLastname;?></h4>
+				<h6 class="m-0 p-0"><small><?php echo $perreq->cEmail?></small></h6>
 				<h6 class="m-0 p-0 robot"><small>11/12/2017 - 12/12/2017 </small></h6>
 			</div>
+			<?php
+	          }
+	        ?>
 		</div>
 		<div class="users-project pt-4 ml-2 mr-2">
 			<table class="table table-hover shadow-super-light">
