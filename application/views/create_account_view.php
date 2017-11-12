@@ -16,11 +16,13 @@
 					    	<input type="password" class="form-control" placeholder="Confirm password">
 					    </div>
 					    <button type="submit" class="btn btn-custom w-100 mb-3" >done</button>
-					<?php echo form_close(); ?>
-					<a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Start Introjs</a>
+					
 				</div>
+
 			</div>
 			</div>
+				<p class="landing-btn3 text-center mt-2"><a style="text-decoration:none" href="<?php echo base_url('main'); ?>" class="text-light">back to home</a></p>
+
 		</div>
 	</div>
 </div>
