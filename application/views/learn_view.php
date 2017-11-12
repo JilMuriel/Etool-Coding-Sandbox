@@ -176,7 +176,7 @@ Here’s some more information about each of these components of the backend.</d
 
     <div  class="col-md">
    <div class="h-100 " style="background-color: black; width: 100%; padding-left: 10px;">
-      <h1 id="sql1"  class="display-2  mx-auto animated fadeIn" style="font-size: 10vw;"><span style="color:#3d0101;">Start <span style="color:#680303;">with <span style="color:#8b1616;"> PHP.</h1>
+      <h1 id="1"  class="display-2  mx-auto animated fadeIn" style="font-size: 10vw;"><span style="color:#3d0101;">Start <span style="color:#680303;">with <span style="color:#8b1616;"> PHP.</h1>
     </div>
   </div>
 
