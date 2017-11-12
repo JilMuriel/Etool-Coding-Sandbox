@@ -138,6 +138,14 @@ class User extends CI_Controller {
         }
     }
 
+    public function profile() {
+        $data['title'] = 'Profile';
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/header_content');
+        $this->load->view('user_profile_view');
+        $this->load->view('templates/footer');
+    }
+
      public function add_student() {
         $data['title'] = 'Create account';
         $this->form_validation->set_rules('txtidnumber', 'cId', 'required');
@@ -210,6 +218,7 @@ class User extends CI_Controller {
             redirect('dashboard/admin_dashboard');
 
         }
+
     }
     public function logout() {
         $this->session->sess_destroy();
