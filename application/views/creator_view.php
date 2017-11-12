@@ -129,6 +129,14 @@
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">DELETE</button>
          </div>
         </div>
+        <div class="card shadow-super-light mt-4" data-intro="Click for some Pre-made functions/syntax">
+          <div class="card-header">
+            <h5>Search</h5>
+          </div>
+          <div class="card-body">
+              <input type="text" class="form-control" name="txtfirstname" placeholder="Search">
+          </div>
+        </div>
       </div>
     </div>
   </div>
