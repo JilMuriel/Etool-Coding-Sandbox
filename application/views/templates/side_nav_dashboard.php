@@ -6,7 +6,7 @@
               </a>
             </li>
             <li class="nav-item p-2">
-              <a class="nav-link" href="<?php echo base_url('dashboard/create_project'); ?>">
+              <a data-intro="To Start a new Project" class="nav-link" href="<?php echo base_url('dashboard/create_project'); ?>">
               	<i class="material-icons">add_box</i>
               </a>
             </li>

@@ -8,7 +8,7 @@
 					<form>
 						<div class="pt-3">
 							<div class="form-group mt-2">
-							    <input type="text" class="form-control" placeholder="Name of project" autocomplete="off">
+							    <input type="text" class="form-control" placeholder="Name of project" autocomplete="off" data-intro="Title of The Project">
 							 </div>
 							 <a class="btn w-100 btn-custom1" href="<?php echo base_url('dashboard/create_database'); ?>">
 							 	Next
@@ -19,5 +19,6 @@
 			</div>
 		</div>
 		<p class="text-center mt-5"><a href="<?php echo base_url('dashboard'); ?>" class="text-light" style="text-decoration:none">back to home</a></p>
+		<a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Tour</a>
 	</div>
 </div>

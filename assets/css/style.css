@@ -384,7 +384,11 @@ a {
   padding-top: 100px !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003366}}
   .Profile .profile-margin {
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 10%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/USER\/Documents\/GitHub\/Etool_development\/assets\/css\/style\.scss}line{font-family:\00003371}}
+.backend-editor {
+  padding-top: 65px; }
 
 /*# sourceMappingURL=style.css.map */
