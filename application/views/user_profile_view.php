@@ -51,7 +51,7 @@
 					  	</div>
 					  </div>
 					  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-					  	<table class="table table-hover">
+					  	<table class="table table-hover ml-2 mr-2">
 						  <thead>
 						    <tr>
 						      <th scope="col"><small class="accent">Name</small></th>
