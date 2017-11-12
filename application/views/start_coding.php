@@ -1,4 +1,6 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+
+
 <script type="text/javascript">
 10
         function view_text () {
@@ -123,9 +125,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow mx-auto animated fadeIn">
  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation ">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    
 
      
 <a href="<?php echo base_url('main'); ?>" class=" navbar-brand text-light ml-2">
@@ -145,27 +145,7 @@
     </div>
 
  </nav>
-  <nav class="navbar fixed-top m-5 ">
-  <button class="navbar-toggler m-5" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-<div id="tool-box mx-auto" class="list-group float-right w-10">
-                       
-       <a href="#" id="Learn"  class="list-group-item ">Select</a>
-        <div class="Dashboard"></div>
-           <a href="#" class="list-group-item text-center">Create </a>
-             <div class="Dashboard"></div>
-             <a href="#" class="list-group-item text-center">Update </a>
-             <div class="Dashboard"></div>
-             <a href="#"  class="list-group-item text-center">Delete </a>
-           </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+
 
     
 
@@ -198,32 +178,15 @@
     </div>
     </div>
   </div>
-  <div class="Dashboard">
-  </div>
-</div>
-<div class="Dashboard">
-   <div class="container mx-auto "> 
-     <div class="row text-center shadow-super-light" style="height:300px">
-
-    <div class="col-md p-1"> 
-      
-    </div>
-  </div>
-</div>
-    </div>
-
-
-  <div class="Dashboard">
-  </div>
-
+    
 
  
  <div class="Dashboard">
     <div class="container mx-auto "> 
-     <div class="row text-center shadow-super-light" style="height:300px; ">
+     <div class="row text-center shadow-super-light" style="height:500px; ">
     <div class="card-header display-4 h-25 p-1" style="width: 100%;">Output:</div>  
     
-    <div id="view_text" style="padding-bottom: 150px; padding-right: 400px;">
+    <div id="view_text">
 
     </div>
     </div>
@@ -254,7 +217,7 @@
     </body>
     </html>  </textarea>
 
-    <br />
+    <br/>
 
      
 
@@ -276,7 +239,23 @@
         </div>
     </div>        
 </div> 
-    
+<div class="Dashboard">
+  </div>
+</div>
+<div class="Dashboard">
+   <div class="container mx-auto "> 
+     <div class="row text-center shadow-super-light" style="height:300px">
+
+    <div class="col-md p-1"> 
+      
     </div>
+  </div>
+</div>
+    </div>
+
+
+  <div class="Dashboard">
+  </div>
+      </div>
   </div>
 
