@@ -7,17 +7,16 @@
 					<hr>
 					<?php echo form_open('user/create_account'); ?>
 						<div class="form-group">
-					    	<input data-intro="This is the name of this site" type="text" class="form-control" name="txtusername" placeholder="Username">
+					    	<input type="text" class="form-control" name="txtusername" placeholder="Username">
 					    </div>
 					    <div class="form-group">
-					    	<input data-intro="This is the main headline" type="password" class="form-control" name="txtpassword" placeholder="Password">
+					    	<input type="password" class="form-control" name="txtpassword" placeholder="Password">
 					    </div>
 					    <div class="form-group">
 					    	<input type="password" class="form-control" placeholder="Confirm password">
 					    </div>
 					    <button type="submit" class="btn btn-custom w-100 mb-3" >done</button>
 					<?php echo form_close(); ?>
-					<a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Start Introjs</a>
 				</div>
 			</div>
 			</div>
