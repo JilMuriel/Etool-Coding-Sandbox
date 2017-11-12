@@ -137,17 +137,14 @@ class User extends CI_Controller {
             redirect('user');
         }
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     public function profile() {
         $data['title'] = 'Profile';
         $this->load->view('templates/header', $data);
         
         $this->load->view('user_profile_view');
         $this->load->view('templates/footer');
-=======
-=======
->>>>>>> c4346f6ad9fed99137a2f601ebe8a3eaabefc24d
+    }
 
      public function add_student() {
         $data['title'] = 'Create account';
@@ -221,10 +218,7 @@ class User extends CI_Controller {
             redirect('dashboard/admin_dashboard');
 
         }
-<<<<<<< HEAD
->>>>>>> c4346f6ad9fed99137a2f601ebe8a3eaabefc24d
-=======
->>>>>>> c4346f6ad9fed99137a2f601ebe8a3eaabefc24d
+
     }
     public function logout() {
         $this->session->sess_destroy();
