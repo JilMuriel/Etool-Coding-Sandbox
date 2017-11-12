@@ -8,13 +8,14 @@
 					<form>
 						<div class="pt-3">
 							<div class="form-group mt-2">
-							    <input type="text" class="form-control" placeholder="Ex.'project-database'" autocomplete="off">
+							    <input type="text" class="form-control" placeholder="Ex.'project-database'" autocomplete="off" data-intro="Database Name">
 							</div>
 							 <a href="<?php echo base_url('dashboard/project'); ?>" class="w-100 btn btn-custom1">Start project</a>
 						</div>
 					</form>
 				</div>
 			</div>
+			<a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl">Start Introjs</a>
 		</div>
 	</div>
 </div>
