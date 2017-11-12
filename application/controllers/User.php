@@ -141,7 +141,7 @@ class User extends CI_Controller {
     public function profile() {
         $data['title'] = 'Profile';
         $this->load->view('templates/header', $data);
-        
+        $this->load->view('templates/header_content');
         $this->load->view('user_profile_view');
         $this->load->view('templates/footer');
     }
