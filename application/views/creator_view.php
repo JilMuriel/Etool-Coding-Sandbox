@@ -91,6 +91,7 @@
             </ul>
             <ul class="nav ml-auto">
               <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link btn btn-primary" href="#" data-intro="Execute the code with this">Run</a>
               </li>
               <li class="nav-item ml-2 mr-2">
@@ -98,14 +99,37 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link btn btn-primary" href="#" data-intro="You can always export your project, feel free.">Export</a>
+=======
+                <button class="nav-link btn btn-outline-danger" data-intro="To Execute the code" id="run_button1">Run</button>
+              </li>
+              <li class="nav-item ml-2 mr-2">
+                <a class="nav-link btn btn-outline-primary" href="#" data-intro="To Clear the Editor" id="clear_button1">Clear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-primary" href="#" data-intro="To Import File">Import</a>
+              </li>
+              <li class="nav-item ml-2 mr-2">
+                <a class="nav-link btn btn-outline-primary" href="#" data-intro="To Export Project"  data-toggle="modal" data-target="#export">Export</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-success" href="#" data-intro="To Save">Save</a>
+>>>>>>> 80b48e520bb40c69871cf0357307db1accbc8b19
               </li>
             </ul>
           </nav>
-          <div class="card-body"  style="height: 30vh;"></div>
+          <div class="card-body"  style="height: 50vh;">
+            <textarea id="phpbox1" class="card-body"  style="height: 100%; width: 100%; border: none"></textarea>
+          </div>
         </div>
+<<<<<<< HEAD
         <div class="card mt-3 shadow-super-light"  data-intro="This will show you the output">
           <div class="card-body"  style="height: 30vh;">
             output here
+=======
+        <div class="card mt-3 shadow-super-light"  data-intro="Output Result">
+          <div class="card-body"  style="height: 40vh;">
+            <iframe id="result" style="height: 100%; width: 100%;" frameBorder="0"></iframe>
+>>>>>>> 80b48e520bb40c69871cf0357307db1accbc8b19
           </div>
         </div>
       </div>
@@ -115,15 +139,91 @@
             <h5>Functions</h5>
           </div>
          <div class="card-body">
+<<<<<<< HEAD
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">Create Login</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">CRUD</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">SELECT</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">UPDATE</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">SEARCH</button>
            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click to created">DELETE</button>
+=======
+           <button type="button" class="btn btn-secondary w-100 mt-1" id="create_login">Create Login</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" id="crud">CRUD</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" id="select">Select</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" id="update">Update</button>
+>>>>>>> 80b48e520bb40c69871cf0357307db1accbc8b19
          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<div id="main" style="display: none">
+          <p id="yeah" >asdasdadadad</p>
+
+          <span>Hey there</span>
+      </div>
+
+<div class="modal fade" id="export" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group mt-2">
+          <input type="text" class="form-control" placeholder="Name" autocomplete="off">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="clickhere">export</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  var doc = result.contentDocument;
+
+  run_button1.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.getValue());
+  });
+
+  create_login.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue('create'));
+  });
+
+  select.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue('select'));
+  });
+
+   crud.addEventListener('click', function(){
+    doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue('crud'));
+  });
+
+  
+  var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('phpbox1'), {
+  mode:  "xml",
+  matchBrackets: true,
+  lineNumbers : true,
+});
+
+  clear_button1.addEventListener('click', function(){
+  doc.close();
+    doc.open();
+    doc.write(myCodeMirror.setValue(' '));
+  });
+</script>
