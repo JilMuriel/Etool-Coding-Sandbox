@@ -59,18 +59,18 @@
 
                 <div class="card-header" role="tab" id="headingtwo">
                   <h6 class="mb-0">
-                    <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      tbl_users
+                    <small><strong><a data-toggle="collapse" href="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                      tbl_Books
                     </a></strong></small>
                   </h6>
                 </div>
                 <!-- laman here -->
-                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingtwo" data-parent="#accordion">
+                <div id="collapsetwo" class="collapse show" role="tabpanel" aria-labelledby="headingtwo" data-parent="#accordion">
                       <div class="card-body pt-2 pb-2">
-                        <p><small>username  int(11) <i class="fa fa-key text-warning" aria-hidden="true"></i></small></p>
-                        <p><small>username  varchar(45) </small></p>
-                        <p><small>password  varchar(45) </small></p>
-                        <p><small>username  varchar(45) </small></p>
+                        <p><small>book_id  int(11) <i class="fa fa-key text-warning" aria-hidden="true"></i></small></p>
+                        <p><small>book_name  varchar(45) </small></p>
+                        <p><small>category  varchar(45) </small></p>
+                        <p><small>author  varchar(45) </small></p>
                       </div>
                 </div>
 
@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="card mt-3 shadow-super-light"  data-intro="Output Result">
-          <div class="card-body"  style="height: 40vh;">
+          <div class="card-body"  style="height: 10vh;">
             <iframe id="result" style="height: 100%; width: 100%;" frameBorder="0"></iframe>
           </div>
         </div>

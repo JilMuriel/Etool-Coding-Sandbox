@@ -37,6 +37,7 @@
 			      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			      <a class="btn btn-primary text-light" data-target="#carouselExampleIndicators" data-slide-to="1">back</a>
+			      <a class="btn btn-primary text-light float-right" href="<?php echo base_url('project'); ?>">Go to Dashboard</a>
 			    </div>
 			  </div>
 			</div>
