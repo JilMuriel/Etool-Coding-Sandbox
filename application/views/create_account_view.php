@@ -15,8 +15,7 @@
 					    <div class="form-group">
 					    	<input type="password" class="form-control" placeholder="Confirm password">
 					    </div>
-					    <button type="submit" class="btn btn-custom w-100 mb-3" >done</button>
-					
+					    <button type="submit" class="btn btn-custom w-100 mb-3" >Create my account</button>
 				</div>
 
 			</div>

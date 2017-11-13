@@ -74,8 +74,9 @@ class User extends CI_Controller {
                 }
             }
             else {
-                // $this->session->flashdata('user_registered');
-                echo "<script>alert('ID NOT FOUND')</script>";
+                redirect('user/validate_user');
+                // // $this->session->flashdata('user_registered');
+                // echo "<script>alert('ID NOT FOUND')</script>";
             }
         }
 
@@ -104,9 +105,10 @@ class User extends CI_Controller {
             $id = $this->session->userdata('txtuserid');
             $this->user_model->m_register($id, $data);
             $this->session->sess_destroy();
-            $this->load->view('templates/header', $data);
-            $this->load->view('create_user_view');
-            $this->load->view('templates/footer');
+            redirect('guide');
+            // $this->load->view('templates/header', $data);
+            // $this->load->view('create_user_view');
+            // $this->load->view('templates/footer');
         }
     }
 
