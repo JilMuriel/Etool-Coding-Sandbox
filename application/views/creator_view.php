@@ -22,7 +22,7 @@
     <ul class="nav ml-auto">
       
       <li class="nav-item">
-        <a class="nav-link btn btn-custom" href="#" data-intro="To Start a New Project">New Project</a>
+        <a class="nav-link btn btn-custom" href="#" data-intro="Go ahead, try creating a new project">New Project</a>
       </li>
       <li class="nav-item ml-2 mr-2">
         <a class="nav-link btn btn-custom" href="#" data-intro="To Save Project">Save</a>
@@ -38,9 +38,9 @@
         <div class="card">
 
             
-            <div id="accordion" role="tablist">
-              <div class="card" data-intro="List of Tables">
-                <div class="card-header" role="tab" id="headingOne">
+            <div id="accordion" role="tablist" data-intro="This is your database table">
+              <div class="card" data-intro="This is where you can see your created tables and field names">
+                <div class="card-header" role="tab" id="headingOne" data-intro=" Click your created table to see attributes ">
                   <h6 class="mb-0">
                     <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       tbl_users
@@ -84,12 +84,12 @@
 
         <div class="card shadow-super-light " data-intro="Write the code here">
           <nav class="navbar navbar-expand-lg navbar-light bg-light border">
-            <ul class="nav mr-auto ml-3">
+            <ul class="nav mr-auto ml-3" data-intro="This is your main text-editor. Try it out">
               <h5 class="nav-item m-auto">Etool Editor</h5>
             </ul>
             <ul class="nav ml-auto">
               <li class="nav-item">
-                <button class="nav-link btn btn-outline-danger" data-intro="To Execute the code" id="run_button1">Run</button>
+                <button class="nav-link btn btn-outline-danger" data-intro="Execute the code with this" id="run_button1">Run</button>
               </li>
               <li class="nav-item ml-2 mr-2">
                 <a class="nav-link btn btn-outline-primary" href="#" data-intro="To Clear the Editor" id="clear_button1">Clear</a>
@@ -121,11 +121,21 @@
             <h5>Functions</h5>
           </div>
          <div class="card-body">
-           <button type="button" class="btn btn-secondary w-100 mt-1" id="create_login">Create Login</button>
-           <button type="button" class="btn btn-secondary w-100 mt-1" id="crud">CRUD</button>
-           <button type="button" class="btn btn-secondary w-100 mt-1" id="select">Select</button>
-           <button type="button" class="btn btn-secondary w-100 mt-1" id="update">Update</button>
+            <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="create_login">Create Login</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="crud">CRUD</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="select">SELECT</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created" id="update">UPDATE</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">SEARCH</button>
+           <button type="button" class="btn btn-secondary w-100 mt-1" data-toggle="tooltip" data-placement="right" title="Click  created">DELETE</button>
          </div>
+        </div>
+        <div class="card shadow-super-light mt-4" data-intro="Click for some Pre-made functions/syntax">
+          <div class="card-header">
+            <h5>Search</h5>
+          </div>
+          <div class="card-body">
+              <input type="text" class="form-control" name="txtfirstname" placeholder="Search">
+          </div>
         </div>
       </div>
     </div>

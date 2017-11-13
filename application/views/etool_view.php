@@ -29,7 +29,7 @@
 						<button style="width: 100%; margin-left: -20px;" class="landing-btn1 btn pr-3 mr-3" onclick="window.location.href = '<?php echo base_url('Learn'); ?>'">Learn More</button>
 					</div>
 					<div class="col">
-						<button style="width: 100%; margin-left: -20px;" class="landing-btn pl-4 pr-4 btn  text-light" onclick="window.location.href = '<?php echo base_url('user/create_account'); ?>'">Create account</button>
+						<button style="width: 100%; margin-left: -20px;" class="landing-btn pl-4 pr-4 btn  text-light" onclick="window.location.href = '<?php echo base_url('User/validate_user'); ?>'">Create account</button>
 					</div>	
 				</div>
 		</div>
