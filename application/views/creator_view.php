@@ -17,7 +17,7 @@
 <div class="backend-editor">
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-super-light ">
     <ul class="nav mr-auto ml-3">
-      <h5 class="nav-item m-auto">Project Title</h5>
+      <h5 class="nav-item m-auto">Book recording activity</h5>
     </ul>
     <ul class="nav ml-auto">
       
@@ -35,11 +35,14 @@
   <div class="coding-ground pt-3 h-100">
     <div class="row m-0 p-0">
       <div class="col-2">
-        <div class="card">
+        <div class="card border-0">
 
             
-            <div id="accordion" role="tablist" data-intro="This is your database table">
+            <div class="border-0" id="accordion" role="tablist" data-intro="This is your database table">
               <div class="card" data-intro="This is where you can see your created tables and field names">
+                <div class="card-header">
+                  <h5 class="mb-0 pb-0"><i class="fa fa-database pr-2 text-left" aria-hidden="true">tbl_book</i></h5>
+                </div>
                 <div class="card-header" role="tab" id="headingOne" data-intro=" Click your created table to see attributes ">
                   <h6 class="mb-0">
                     <small><strong><a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

@@ -18,7 +18,7 @@
           				</div>
           				<div class="card-body">
           					<p class="text-justify">Basic testing of Mysql code</p>
-          					<a data-intro="This is the name of this site" href="<?php echo base_url('dashboard/project '); ?>" class="btn btn-outline-primary float-right">Go to project</a>
+          					<a data-intro="This is the name of this site" href="<?php echo base_url('project'); ?>" class="btn btn-outline-primary float-right">Go to project</a>
           				</div>
           			</div>
           		</div>
@@ -36,10 +36,10 @@
           				</div>
           				<div class="card-body">
           					<p class="text-justify">Basic CRUD with books</p>
-          					<button type="button" class="btn btn-outline-primary float-right">Go to project</button>
+          					<button type="button" class="btn btn-outline-primary float-right" href="<?php echo base_url('project'); ?>">Go to project</button>
           				</div>
           			</div>
           		</div>
 
           	</div>
-               <a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl btn btn-info">Tour</a>
+               <a href="javascript:void(0)" onclick="introJs().start();" class="page-scroll btn btn-xl btn btn-info ml-3">Tour</a>
