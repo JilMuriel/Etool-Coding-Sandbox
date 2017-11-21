@@ -9,8 +9,8 @@
 	          foreach ($all_data as $perreq){
 	          ?>
 			<div class="d-inline-block align-middle ml-4">
-				<h4 class="accent"><?php echo $perreq->cFirstname . " " . $perreq->cLastname;?></h4>
-				<h6 class="m-0 p-0"><small><?php echo $perreq->cEmail?></small></h6>
+				<h4 class="accent">Babarano Teodoro<!-- <?php echo $perreq->cFirstname . " " . $perreq->cLastname;?> --></h4>
+				<h6 class="m-0 p-0">babarano@gmail.com<small><!-- <?php echo $perreq->cEmail?> --></small></h6>
 				<h6 class="m-0 p-0 robot"><small>11/12/2017 - 12/12/2017 </small></h6>
 			</div>
 			<?php

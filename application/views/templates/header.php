@@ -11,9 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/introjs.min.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/introjs-rtl.min.css">
 	<link rel="stylesheet" type="text/css" href="/assets/codemirror/lib/codemirror.css">
-	<link rel="stylesheet" type="text/css" href="/assets/themes/monokai.css">
-	<link rel="stylesheet" type="text/css" href="/assets/themes/midnight.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="/assets/themes/monokai.css">
+	<link rel="stylesheet" type="text/css" href="/assets/themes/midnight.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
 	<!-- google icons -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- font-awsome -->
