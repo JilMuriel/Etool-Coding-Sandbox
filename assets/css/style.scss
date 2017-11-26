@@ -373,9 +373,20 @@ transition: all .9s ease;
 
 }
 .Schema {
+	height: 100%;
 	background-image: url('/assets/img/schema_bg.png');
 }
-
+.btn-field {
+	border: 1px #222 solid;
+	background: none;
+}
 .table {
 	width: 230px;
+}
+.field-box {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.field-form {
+	margin: 0px 0px;
 }

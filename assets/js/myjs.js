@@ -11,11 +11,13 @@ $('.carousel').carousel()
         $('.carousel').carousel('pause');
     });
  // collapse
- $('.collapse').collapse();
+ // $('.collapse').collapse();
 //code editor js
 
 $(function() {
 $( ".movable" ).draggable();
+$( "#sortable" ).sortable();
+$( "#sortable" ).disableSelection();
 });
 
 
