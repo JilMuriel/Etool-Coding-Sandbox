@@ -18,6 +18,7 @@ $(function() {
 $( ".movable" ).draggable();
 });
 
+
 //start of export project
 $('#result').each(function() {
 $(this).data('contents', $(this).html());
