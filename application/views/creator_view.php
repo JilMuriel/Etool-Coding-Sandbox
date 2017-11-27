@@ -273,7 +273,7 @@
             </ul>
           </div>
           <div class="pt-2 pb-2 pl-2 pr-2">
-            <button class="btn btn-primary w-100 pt-1 pb-1" data-toggle="collapse" href="#edit_field1" aria-expanded="false" aria-controls="add_field"><i class="text-light fa fa-plus" aria-hidden="true"></i></button>
+            <button class="btn btn-primary w-100 pt-1 pb-1" data-toggle="collapse" href="#add_field" aria-expanded="false" aria-controls="add_field"><i class="text-light fa fa-plus" aria-hidden="true"></i></button>
 
             <div class="field-box collapse" id="add_field">
               <div class="pt-3">
