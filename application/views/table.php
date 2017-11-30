@@ -1,25 +1,4 @@
-<!-- 
-<div class="Schema">
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow pt-1 pb-1">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Etool</a>
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-  </div>
-</nav> -->
-  <div class="Schema" id="schema">
-    <div class="row pt-3 m-0 p-0 pt-5 mt-4">
-       <div class="d-inline-block">
-         <div class="table movable card shadow">
+<div class="table movable card shadow">
           <div class="p-2 border">
             <p class="mb-0 pb-0 d-inline-block accent"><strong>tbl_users</strong></p>
             <a class="d-inline-block" data-toggle="collapse" href="#edit-table_name" aria-expanded="false" aria-controls="edit-table_name"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
@@ -358,16 +337,3 @@
             </div>
           </div>
          </div>
-       </div> 
-
-
-    </div>
-  </div>
-  <button class="btn btn-primary" id="btn_add">add</button>
-</div>
-
-<script type="text/javascript">
-  document.getElementById("btn_add").addEventListener("click", function(){
-    $("#schema").append('nice try');
-});
-</script>

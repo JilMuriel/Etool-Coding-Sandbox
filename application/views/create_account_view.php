@@ -20,7 +20,7 @@
 
 			</div>
 			</div>
-				<p class="landing-btn3 text-center mt-2"><a style="text-decoration:none" href="<?php echo base_url('main'); ?>" class="text-light">back to home</a></p>
+				<p class="landing-btn3 text-center mt-4"><a style="text-decoration:none" href="<?php echo base_url('user'); ?>">Already have an account? Login here.</a></p>
 
 		</div>
 	</div>

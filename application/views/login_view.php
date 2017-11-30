@@ -16,12 +16,9 @@
 						</div>
 					<?php echo form_close(); ?>
 					<a href="<?php echo base_url('User/validate_user'); ?>" class="accent text-center">Need an account? Register here</a>
-
 				</div>
-
 			</div>
-			<p class="landing-btn3 text-center mt-2"><a style="text-decoration:none" href="<?php echo base_url('main'); ?>" class="text-light">back to home</a></p>
-
+			<p class="landing-btn3 text-center mt-4"><a style="text-decoration:none" href="<?php echo base_url('/'); ?>">back to home</a></p>
 		</div>
 	</div>
 </div>

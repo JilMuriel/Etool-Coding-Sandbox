@@ -1,5 +1,5 @@
 body {
-	background-color: #F8F8F8;
+	background-color: #f2f2f2;
 	height: 100vh;
 	font-family: 'Raleway', sans-serif;
 }
@@ -17,16 +17,7 @@ hr {
 	color: #175A8B;
 }
 .shadow {
-	box-shadow: 0px 0.1px 10px 0.1px #666;
-}
-.card-shadow {
-box-shadow:         0px -1px 13px -7px rgba(0, 0, 0, 0.66);
-}
-.shadow-super-light {
-	box-shadow: 0px 0.1px 5px 0.1px #777;
-}
-.shadow-light {
-	box-shadow: 0px 0.1px 10px 0.1px #555;
+	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .btn-custom {
 	background-color: #175A8B;
@@ -86,13 +77,13 @@ a {
 
 // ------------------------------------------------
 .Login {
-	background-image: url('/assets/img/bg-transparent.png');
+	// background-image: url('/assets/img/bg-transparent.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	// background-color: #246170;
-	background-color: #6693B2;
+	// background-color: #6693B2;
 }
 .l-center {
 	margin: auto;
@@ -109,22 +100,17 @@ a {
 	padding-top: 15vh;
 }
 .validate {
-	background-image: url('/assets/img/bg-transparent.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	// background-color: #246170;
-	background-color: #6693B2;
 }
 .CreateAccount {
-	background-image: url('/assets/img/bg-transparent.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	// background-color: #246170;
-	background-color: #6693B2;
+	color: black!important;
 }
 .register-card {
 	background: #fff;
@@ -375,6 +361,8 @@ transition: all .9s ease;
 .Schema {
 	height: 100%;
 	background-image: url('/assets/img/schema_bg.png');
+	margin:0;
+	
 }
 .btn-field {
 	border: 1px #222 solid;

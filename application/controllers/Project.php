@@ -14,4 +14,7 @@ class project extends CI_Controller {
     	$this->load->view('text_editor_view');
     	$this->load->view('templates/footer');
     }
+    public function table() {
+        $this->load->view('table');
+    }
 }

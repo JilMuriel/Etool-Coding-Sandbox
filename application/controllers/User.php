@@ -18,6 +18,7 @@ class User extends CI_Controller {
         if ($this->form_validation->run() == FALSE) {
             redirect('user');
         } else {
+            echo "string";
             $username = $this->security->xss_clean($this->input->post('txtusername'));
             $password = $this->security->xss_clean($this->input->post('txtpassword'));
             $result = $this->user_model->m_login($username, $password);
