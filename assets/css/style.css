@@ -306,6 +306,11 @@ a {
 .backend-editor {
   padding-top: 65px; }
 
+.Schema {
+  height: 100%;
+  background-image: url("/assets/img/schema_bg.png");
+  margin: 0; }
+
 .btn-field {
   border: 1px #222 solid;
   background: none; }
